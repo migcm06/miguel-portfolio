@@ -35,7 +35,7 @@ nav .nav-list .nav-item {
   cursor: pointer;
   height: 80%;
   padding: 5%;
-  transition: .4s;
+  transition: 0.4s;
   letter-spacing: 0.03em;
   font-weight: 700;
   font-size: 15px;
@@ -43,35 +43,35 @@ nav .nav-list .nav-item {
   top: 30px;
 }
 
-nav a { color:  #344563; }
+nav a { color: #344563; }
 
 nav .nav-list .nav-item:enabled {
   background: #fff;
-  border: 1px solid #7F8CFF;
+  border: 1px solid #7f8cff;
   border-radius: 8px;
 }
 
 nav .nav-list .nav-item:hover {
-  background: #6070FF;
-  border: 1px solid #6070FF;
+  background: #6070ff;
+  border: 1px solid #6070ff;
   border-radius: 8px;
 }
 
-nav .nav-list a:hover{ color: white; }
+nav .nav-list a:hover { color: white; }
 
 @media (width <= 375px) {
-    nav .nav-list {
-        display: grid;
-        position: absolute;
-        background: #fff;
-        width: 100%;
-        top: 75px;
-        left: 0;
-        z-index: -1;
-        transition: .6s;
-    }
+  nav .nav-list {
+    display: grid;
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    top: 75px;
+    left: 0;
+    z-index: -1;
+    transition: .6s;
+}
 
-    nav .nav-list .nav-item {
+  nav .nav-list .nav-item {
         display: none;
         padding-left: 35px;
     }
