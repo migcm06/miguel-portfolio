@@ -138,7 +138,7 @@ nav .navbar-hamburger .bar {
   height: 22.02px;
   right: -6%;
   top: 110px;
-  background: #EBEBFF;
+  background: #ebebff;
   transform: rotate(-30deg);
   overflow: hidden;
 }
@@ -162,7 +162,7 @@ nav .navbar-hamburger .bar {
   top: 290px;
   right: 50px;
   width: 15px;
-  height:15px;
+  height: 15px;
   border: 2px solid #cbcdff;
   border-radius: 100%;
   overflow: hidden;
@@ -172,10 +172,10 @@ nav .navbar-hamburger .bar {
   position: absolute;
   top: 73%;
   right: 10%;
-  width:24px;
+  width: 24px;
   height: 12px;
   background-color: #6070ff;
-   border-radius: 10rem 10rem 0 0;
+  border-radius: 10rem 10rem 0 0;
   transform: rotate(185deg);
   overflow: hidden;
 }
@@ -185,7 +185,7 @@ nav .navbar-hamburger .bar {
   top: 75%;
   right: 11%;
   width: 30px;
-  height:30px;
+  height: 30px;
   border: 4px solid #ebebff;
   border-radius: 50%;
   border-bottom-color: transparent;
