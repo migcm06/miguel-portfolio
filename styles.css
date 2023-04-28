@@ -238,7 +238,7 @@ section .primary-text {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -255,42 +255,43 @@ section p {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
- flex: none;
- order: 1;
- flex-grow: 0;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 section h3 {
- position: absolute;
- top: 72%;
- left: 4%;
- width: 120px;
- height: 24px;
- font-style: normal;
- font-weight: 500;
- font-size: 16px;
- line-height: 24px;
- color: #7F8CFF;
- flex: none;
- order: 0;
- flex-grow: 0;
+  position: absolute;
+  top: 72%;
+  left: 4%;
+  width: 120px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 #social {
-position: absolute;
-top: 73%;
-left: 5%;
+  position: absolute;
+  top: 73%;
+  left: 5%;
 }
 
 .icon {
-width: 25px;
-height: 25px;
-padding-left: 3%;
+  width: 25px;
+  height: 25px;
+  padding-left: 3%;
 }
 
 #linkedin {
-position: relative;
-top: 13px;
-width: 45px;
-height: 45px;
+  position: relative;
+  top: 13px;
+  width: 45px;
+  height: 45px;
 }
+/* stylelint-disable-next-line rule */
