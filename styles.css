@@ -190,8 +190,8 @@ nav .navbar-hamburger .bar {
   border-radius: 50%;
   border-bottom-color: transparent;
   border-left-color: transparent;
-  transform: rotate(-30deg); 
-  overflow: hidden;   
+  transform: rotate(-30deg);
+  overflow: hidden;
 }
 
 #circle2 {
@@ -199,7 +199,7 @@ nav .navbar-hamburger .bar {
   top: 90%;
   left: 9%;
   width: 18px;
-  height:18px;
+  height: 18px;
   border: 2px solid #cbcdfd;
   border-radius: 100%;
   overflow: hidden;
@@ -227,70 +227,70 @@ nav .navbar-hamburger .bar {
 }
 
 section .primary-text {
-position: absolute;
-top: 175px;
-left: 4%;
-width: 327px;
-height: 150px;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-display: flex;
-align-items: center;
-color: #172B4D;
-flex: none;
-order: 0;
-flex-grow: 0;
+  position: absolute;
+  top: 175px;
+  left: 4%;
+  width: 327px;
+  height: 150px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172B4D;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 section p {
-position: absolute;
-top: 50%;
-left: 4%;
-width: 327px;
-height: 146px;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #344563;
-flex: none;
-order: 1;
-flex-grow: 0;
+  position: absolute;
+  top: 50%;
+  left: 4%;
+  width: 327px;
+  height: 146px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+ flex: none;
+ order: 1;
+ flex-grow: 0;
 }
 
 section h3 {
-position: absolute;
-top: 72%;
-left: 4%;
-width: 120px;
-height: 24px;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #7F8CFF;
-flex: none;
-order: 0;
-flex-grow: 0;
+ position: absolute;
+ top: 72%;
+ left: 4%;
+ width: 120px;
+ height: 24px;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 24px;
+ color: #7F8CFF;
+ flex: none;
+ order: 0;
+ flex-grow: 0;
 }
 
 #social {
-    position: absolute;
-    top: 73%;
-    left: 5%;
+position: absolute;
+top: 73%;
+left: 5%;
 }
 
 .icon {
-    width: 25px;
-    height: 25px;
-    padding-left: 3%;
+width: 25px;
+height: 25px;
+padding-left: 3%;
 }
 
 #linkedin {
-    position: relative;
-    top: 13px;
-    width: 45px;
-    height: 45px;
+position: relative;
+top: 13px;
+width: 45px;
+height: 45px;
 }
