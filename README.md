@@ -30,7 +30,7 @@
 
 # 📖 Portfolio: setup and mobile first <a name="about-project"></a>
 
-**HPortfolio: setup and mobile first** is the second project that I do for Microverse, in this occasion, you're going to watch how I copied a layout from a given template and made a mockup the most similar possible to the chosen one. I implemented the good practices of writing code especially in the stylesheet.
+**Portfolio: setup and mobile first** is the second project that I do for Microverse, in this occasion, you're going to watch how I copied a layout from a given template and made a mockup the most similar possible to the chosen one. I implemented the good practices of writing code especially in the stylesheet.
 
 ## 🛠 Built With <a name="built-with"></a>
 
