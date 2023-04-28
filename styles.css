@@ -69,13 +69,12 @@ nav .nav-list a:hover { color: white; }
     left: 0;
     z-index: -1;
     transition: 0.6s;
-}
-
+}  
 
 nav .nav-list .nav-item {
     display: none;
     padding-left: 35px;
-}
+}  
 
 nav .navbar-hamburger {display: grid !important; }   
 }
