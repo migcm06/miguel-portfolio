@@ -21,7 +21,7 @@ nav {
 }
 
 nav .navbar-logo {
-  color: #6070FF;
+  color: #6070ff;
   width: 76px;
   height: 20px;
   font-style: normal;
@@ -32,37 +32,32 @@ nav .navbar-logo {
 nav .nav-list { display: flex; }
 
 nav .nav-list .nav-item {
-    cursor: pointer;
-    height: 80%;
-    padding: 5%;
-    transition: .4s;
-    letter-spacing: 0.03em;
-    font-weight: 700;
-    font-size: 15px;  
-    position: relative;
-    top: 30px;
+  cursor: pointer;
+  height: 80%;
+  padding: 5%;
+  transition: .4s;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 15px;
+  position: relative;
+  top: 30px;
 }
 
-nav a {
-    color:  #344563;
-}
+nav a { color:  #344563; }
 
 nav .nav-list .nav-item:enabled {
-    background: #fff;
-    border: 1px solid #7F8CFF;
-    border-radius: 8px;
+  background: #fff;
+  border: 1px solid #7F8CFF;
+  border-radius: 8px;
 }
 
 nav .nav-list .nav-item:hover {
-    background: #6070FF;
-    border: 1px solid #6070FF;
-    border-radius: 8px;
-    
+  background: #6070FF;
+  border: 1px solid #6070FF;
+  border-radius: 8px;
 }
 
-nav .nav-list a:hover{
-    color: white;
-}
+nav .nav-list a:hover{ color: white; }
 
 @media (width <= 375px) {
     nav .nav-list {
