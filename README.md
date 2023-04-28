@@ -6,14 +6,14 @@
   <img src="logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Hello World! Exercise</b></h3>
+  <h3><b>Portfolio: setup and mobile first Exercise</b></h3>
 
 </div>
 
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
-
+ 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
   - [🚀 Live Demo](#live-demo)
@@ -28,9 +28,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello World Exercise <a name="about-project"></a>
+# 📖 Portfolio: setup and mobile first <a name="about-project"></a>
 
-**Hello World** is a first tiny project that I do for Microverse, in the project you can see the use of the linters and how they work testing that all is running good.
+**HPortfolio: setup and mobile first** is the second project that I do for Microverse, in this occasion, you're going to watch how I copied a layout from a given template and made a mockup the most similar possible to the chosen one. I implemented the good practices of writing code especially in the stylesheet.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,7 +51,13 @@ The project uses the following technologies: Git, Github, linters (stylelint, Li
 
 
 
-- [Live Demo Link](https://migcm06.github.io/hello-world-exercise/)
+- [Live Demo Link](https://frabjous-pastelito-f686a4.netlify.app/)
+
+This is a screenshot of the project.
+
+<img src="screenshot.png" alt="logo" width="600"  height="auto" />
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,7 +80,7 @@ To get a local copy up and running, follow these steps:
 Clone this repository to your desired folder:
 
 using this: 
-  git clone git@github.com:migcm06/hello-world-exercise.git
+  git clone git@github.com:migcm06/miguel-portfolio.git
 
 
 
@@ -96,7 +102,7 @@ using this:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [1] I would like to make the Hello World! text more interactive when you click on it.
+- [1] I would like to work fix the overflow of some decoration in the page.
 
 <!-- CONTRIBUTING -->
 
@@ -123,7 +129,7 @@ If you like this project, please let me know it in a comment or if you want repl
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to Manuel and Randall, I was stuck for a long time and they help me to solve the bug.
+I would like to mention that the best way of working with Stylelint lint is looking and read carefully the official documentation on their webpage.
 
 <!-- LICENSE -->
 
