@@ -6,26 +6,28 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  }
+}
 
-body { font-family: Poppins; }
+body { font-family: 'Poppins', Arial, Helvetica, sans-serif; }
 
-nav { 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10%;
-    height: 20%;
-    line-height: 75px;
-    background: #fff; }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  height: 20%;
+  line-height: 75px;
+  background: #fff;
+}
 
 nav .navbar-logo {
-    color: #6070FF;
-    width: 76px;
-    height: 20px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px; }
+  color: #6070FF;
+  width: 76px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
 
 nav .nav-list { display: flex; }
 
