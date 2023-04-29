@@ -219,13 +219,52 @@ section h3 {
   color: #7f8cff;
 }
 
-.social-list {
+section div.social {
   display: flex;
+  width: 60%;
+  justify-content: space-evenly;
   position: absolute;
-  top: 77%;
+  top: 78%;
+
 }
 
-.social-list .network {
-  padding-left: 17px;
+#twitter {
+  background-image: url('images/twitter.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 30px;
+  height: 30px;
+}
+
+#linkedin {
+  background-image: url('images/linkedin.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 30px;
+  height: 30px;
+}
+
+#m {
+  background-image: url('images/M.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 30px;
+  height: 30px;
+}
+
+#github {
+  background-image: url('images/git.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 30px;
+  height: 30px;
+}
+
+#hand {
+  background-image: url('images/hand.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 30px;
+  height: 30px;
 }
 /* stylelint-disable-next-line rule */
