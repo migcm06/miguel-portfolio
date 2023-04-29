@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-body { 
+body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   height: 718px;
 }
@@ -75,9 +75,9 @@ section {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 40px;
-  height: 20px; 
+  height: 20px;
   top: 20%;
-  left: 30% 
+  left: 30%;
 }
 
 #ellipse5 {
@@ -86,9 +86,9 @@ section {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 15px;
-  height: 14px; 
+  height: 14px;
   top: 21%;
-  left: 30.8% 
+  left: 30.8%;
 }
 
 #rectangle2 {
@@ -188,7 +188,7 @@ section .primary-text {
   display: flex;
   align-items: center;
   color: #172b4d;
-  font-family: 'Poppins';
+  font-family: Poppins;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -204,7 +204,7 @@ section p {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  padding: 0px 14px;
+  padding: 1px 14px;
 }
 
 section h3 {
