@@ -26,7 +26,7 @@ nav .navbar-logo {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  font-family: 'Poppins';
+  font-family: Poppins;
 }
 
 nav .navbar-hamburger {
@@ -50,36 +50,33 @@ nav .navbar-hamburger .bar {
 
 section {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   border-bottom-left-radius: 50%;
-  font-family: 'Poppins';
+  font-family: Poppins;
 }
+
 .container {
   background-image: url('images/shapes.svg');
   background-size: 100% 100%;
   width: 375px;
-  height: 567px;
-  margin-top: 12%;
+  height: 580px;
+  margin-top: 10%;
   margin-left: -3%;
 }
 
 section .primary-text {
-  position: absolute;
-  top: 175px;
-  left: 4%;
   width: 327px;
   height: 150px;
-  display: flex;
-  align-items: center;
   color: #172b4d;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  margin-left: 10%;
+  margin-top: 29%;
+  margin-bottom: 3%;
 }
 
 section p {
-  position: absolute;
-  top: 50%;
   width: 327px;
   height: 146px;
   font-style: normal;
@@ -88,12 +85,11 @@ section p {
   line-height: 24px;
   color: #344563;
   padding: 1px 14px;
+  margin-left: 6%;
+  margin-bottom: 2%;
 }
 
 section h3 {
-  position: absolute;
-  top: 73%;
-  left: 4%;
   width: 120px;
   height: 24px;
   font-style: normal;
@@ -101,5 +97,6 @@ section h3 {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  margin-left: 10%;
 }
 /* stylelint-disable-next-line rule */
