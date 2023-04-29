@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  height: 20%;
+  line-height: 75px;
+  background: #fff;
+  width: 95%;
+}
+
+nav .navbar-logo {
+  color: #6070ff;
+  width: 76px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+nav .navbar-hamburger {
+  display: flex;
+  flex-direction: column;
+  height: min-content;
+  margin: 18px -10px 0 0;
+  cursor: pointer;
+}
+
+nav .navbar-hamburger .bar {
+  width: 20px;
+  height: 3px;
+  margin-bottom: 4px;
+  background: #6070ff;
+  border-radius: 18%;
+  transition: 0.4s;
+  position: relative;
+  top: 21px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 50%;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-image: url('images/shapes.svg');
+  background-size: 100% 100%;
+  width: 375px;
+  height: 580px;
+  margin-top: 10%;
+  margin-left: -3%;
+}
+
+section .primary-text {
+  width: 327px;
+  height: 150px;
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-left: 10%;
+  margin-top: 29%;
+  margin-bottom: 3%;
+}
+
+section p {
+  width: 327px;
+  height: 146px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding: 1px 14px;
+  margin-left: 6%;
+  margin-bottom: 2%;
+}
+
+section h3 {
+  width: 120px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-left: 10%;
+}
+
+#social {
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+  height: 20px;
+  margin-top: 2%;
+  margin-left: 10%;
+  cursor: pointer;
+}
+/* stylelint-disable-next-line rule */
