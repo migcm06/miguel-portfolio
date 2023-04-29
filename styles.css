@@ -99,4 +99,14 @@ section h3 {
   color: #7f8cff;
   margin-left: 10%;
 }
+
+#social {
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+  height: 20px;
+  margin-top: 2%;
+  margin-left: 10%;
+  cursor: pointer;
+}
 /* stylelint-disable-next-line rule */
