@@ -60,7 +60,7 @@ section {
 
 #ellipse1 {
   position: absolute;
-  background-image: url(/images/ellipse1.svg);
+  background-image: url('images/ellipse1.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: 18%;
@@ -71,7 +71,7 @@ section {
 
 #rentangle {
   position: absolute;
-  background-image: url(/images/rectangle.svg);
+  background-image: url('images/rectangle.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 40px;
@@ -82,7 +82,7 @@ section {
 
 #ellipse5 {
   position: absolute;
-  background-image: url(/images/circle1.svg);
+  background-image: url('images/circle1.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 15px;
@@ -93,7 +93,7 @@ section {
 
 #rectangle2 {
   position: absolute;
-  background-image: url(/images/rectangle2.svg);
+  background-image: url('images/rectangle2.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 122px;
@@ -104,7 +104,7 @@ section {
 
 #ellipse3 {
   position: absolute;
-  background-image: url(/images/ellipse3.svg);
+  background-image: url('images/ellipse3.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 122px;
@@ -115,7 +115,7 @@ section {
 
 #circle1 {
   position: absolute;
-  background-image: url(/images/circle1.svg);
+  background-image: url('images/circle1.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 12px;
@@ -126,7 +126,7 @@ section {
 
 #ellipse2 {
   position: absolute;
-  background-image: url(/images/ellipse2.svg);
+  background-image: url('images/ellipse2.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: 72.5%;
@@ -137,7 +137,7 @@ section {
 
 #ellipse4 {
   position: absolute;
-  background-image: url(/images/ellipse4.svg);
+  background-image: url('images/ellipse4.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: 75%;
@@ -148,7 +148,7 @@ section {
 
 #circle2 {
   position: absolute;
-  background-image: url(/images/circle2.svg);
+  background-image: url('images/circle2.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: 88%;
@@ -159,7 +159,7 @@ section {
 
 #circle3 {
   position: absolute;
-  background-image: url(/images/circle3.svg);
+  background-image: url('images/circle3.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: 88%;
@@ -170,7 +170,7 @@ section {
 
 #rectangle3 {
   position: absolute;
-  background-image: url(/images/rectangle3.svg);
+  background-image: url('images/rectangle3.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: 88.3%;
