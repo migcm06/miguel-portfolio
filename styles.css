@@ -8,11 +8,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  height: 718px;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -31,6 +26,7 @@ nav .navbar-logo {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
+  font-family: 'Poppins';
 }
 
 nav .navbar-hamburger {
@@ -56,6 +52,15 @@ section {
   display: flex;
   justify-content: space-between;
   border-bottom-left-radius: 50%;
+  font-family: 'Poppins';
+}
+.container {
+  background-image: url('images/shapes.svg');
+  background-size: 100% 100%;
+  width: 375px;
+  height: 567px;
+  margin-top: 12%;
+  margin-left: -3%;
 }
 
 section .primary-text {
