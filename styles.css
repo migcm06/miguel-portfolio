@@ -49,12 +49,14 @@ nav .navbar-hamburger .bar {
   top: 21px;
 }
 
-#who {
+#about {
   background-image: url('images/shapes.svg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 27%;
   margin: 0;
+  padding-bottom: 40%;
+  border-bottom-left-radius: 30%;
 }
 
 section {
@@ -114,11 +116,11 @@ h3 {
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
+  align-items: center;
   margin-top: 30%;
   box-sizing: border-box;
-  padding: 16px;
+  padding-top: 10%;
   width: 90%;
   height: auto;
   background: #fff;
@@ -127,9 +129,19 @@ h3 {
   padding-bottom: 20%;
 }
 
-#frame {
-  margin: 4% 0;
+.card .title {
+  margin-left: 6%;
+  margin-top: 2%;
 }
+
+.card p {
+  margin-left: 8%;
+}
+
+#frame {
+  margin-left: -17%;
+}
+
 .code-links {
   display: flex;
   align-self: start;
@@ -139,10 +151,10 @@ h3 {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  width: 70%;
+  width: 50%;
   height: auto;
   color: #6070ff;
-  margin: 2% 0;
+  margin: 2% 8%;
 }
 
 .tag {
@@ -161,17 +173,11 @@ h3 {
   border-radius: 8px;
   width: auto;
   padding: 2%;
-  margin: 10% 0;
+  margin-left: -55%;
+  margin-top: 10%;
 }
 
 .button a {
   color: #396df2;
 }
-
-#get {
-  margin-left: -47%;
-  margin-top: 3%;
-}
-
-@media screen ()
 /* stylelint-disable-next-line rule */
