@@ -137,9 +137,7 @@ p {
   border-radius: 16px;
 }
 
-.pic {
-    justify-self: center;
-}
+.pic { justify-self: center; }
 
 ul {
   display: flex;
@@ -216,4 +214,3 @@ a {
 
 .text-card { padding-left: 8%; }
 /* stylelint-disable-next-line rule */
-
