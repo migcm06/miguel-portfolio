@@ -170,6 +170,7 @@ a {
   padding: 4% 4%;
   transition: 0.5s;
   cursor: pointer;
+  color: #396df2;
 }
 
 .button:active {
