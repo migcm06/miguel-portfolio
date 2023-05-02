@@ -17,7 +17,6 @@ nav {
   line-height: 75px;
   background: #fff;
   width: 95%;
-  z-index: 1;
 }
 
 nav .navbar-logo {
@@ -85,6 +84,18 @@ h1 {
   color: #172b4d;
 }
 
+h2 {
+  width: 90%;
+  height: 40%;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
 p {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -95,7 +106,7 @@ p {
   padding: 2% 0;
 }
 
-h3 {
+.project {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -176,6 +187,19 @@ h3 {
   padding: 2%;
   margin-left: -55%;
   margin-top: 10%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button:active {
+  background: #54d222;
+  color: #fff;
+}
+
+.button:hover {
+  background: #6070ff;
+  color: #fff;
+  transition: 0.5s;
 }
 
 .button a {
