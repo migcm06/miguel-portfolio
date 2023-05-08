@@ -140,7 +140,7 @@ p {
 .pic { justify-self: center; }
 
 ul {
-  display: flex;
+  float: left;
   justify-content: space-between;
   width: 68%;
   margin: 4% 0;
@@ -152,9 +152,11 @@ ul {
 }
 
 .tag {
+  float: left;
   background: #ebebff;
   border-radius: 8px;
   padding: 2%;
+  margin-left: 2%;
 }
 
 a {
