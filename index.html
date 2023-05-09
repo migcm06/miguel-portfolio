@@ -190,26 +190,34 @@
    
         </section>
 
-        <section class="form">
-
-            <h2 id="contact">
+        <section class="contact-me">
+            
+            <div class="text-contact">  
+            <h3 id="contact_title">
                 Contact me
-            </h2>
-            <p id="form_text">
-                If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-    I           ’d love to help with it!
+            </h3>
+           
+        </div>
+           <p id="form_text">
+                If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!
             </p>
-    
-            <form action="https://formspree.io/f/xlekzqzw" method="POST" id="form" >
+
+        <form action="https://formspree.io/f/xlekzqzw" method="POST" id="form" >
             <label>
             <input type="name" name="name" required placeholder="Lorem Ipsum" maxlength="30">
             </label>
             <label>
             <input type="email" name="email" required placeholder="loremipsum@gmail.com">
             </label>
-            <textarea id="comments" class="input-textarea" name="comment" placeholder="Write your message here..."></textarea>
+            <textarea id="comments" class="input-textarea" name="comment" required placeholder="Write your message here..." maxlength="500"></textarea>
             <button type="submit">Get in touch</button>
-            </form>
+        </form>
+
+
+      
+
+
+        
     
         </section>
         

@@ -175,7 +175,7 @@ a {
 }
 
 .button:active {
-  background: #54d222;
+  background: #2230d2;
   color: #fff;
 }
 
@@ -216,13 +216,111 @@ a {
 
 .text-card { padding-left: 8%; }
 
-.form {
+.contact-me {
+  background-color: #6070ff;
+  border-top-left-radius: 90px;
+  margin: 0;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  padding-top: 35%;
+  padding-bottom: 30%;
+  margin-top: 15%;
+  background-image: url('images/shapes3.svg');
+  background-repeat: no-repeat;
+  background-size: 142% 85%;
+}
+
+#contact_title {
+  color: #fff;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 2%;
+  margin-top: -18%;
+}
+
+#form_text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ebebff;
+  width: 90%;
+  margin-bottom: 8%;
+  text-align: center;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+}
+
+input {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 10px;
+  color: #172b4d;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  padding-top: 4%;
+  padding-left: 4%;
+  padding-bottom: 4%;
+  width: 100%;
+  margin-bottom: 4%;
+}
+
+textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 10px;
+  color: #b3bac5;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+  padding-top: 4%;
+  padding-left: 4%;
+  padding-bottom: 20%;
+  margin-bottom: 5%;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 5%;
+  width: 50%;
+  background: #fff;
+  border-radius: 10px;
+  color: #6070ff;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #6070ff;
+  color: #fff;
+  transition: 0.5s;
+}
+
+button:active {
+  background: #2230d2;
+  color: #fff;
+  transition: 0.5s;
 }
 /* stylelint-disable-next-line rule */
