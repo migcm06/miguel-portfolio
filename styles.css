@@ -78,6 +78,7 @@ h1 {
   display: flex;
   align-items: center;
   color: #172b4d;
+  margin-top: 10%;
 }
 
 h2 {
@@ -214,4 +215,14 @@ a {
 }
 
 .text-card { padding-left: 8%; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
 /* stylelint-disable-next-line rule */
