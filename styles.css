@@ -310,12 +310,14 @@ button {
   font-size: 17px;
   line-height: 24px;
   cursor: pointer;
+  border: white;
 }
 
 button:hover {
   background: #6070ff;
   color: #fff;
   transition: 0.5s;
+  border: white;
 }
 
 button:active {
