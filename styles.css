@@ -126,7 +126,6 @@ p {
 .card {
   display: grid;
   grid-gap: 1.5%;
-  margin-top: 40%;
   box-sizing: border-box;
   padding-top: 10%;
   padding-bottom: 20%;
@@ -135,7 +134,7 @@ p {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  margin: 5%;
+  margin: 15% 5%;
 }
 
 .pic { justify-self: center; }
@@ -324,10 +323,5 @@ button:active {
   background: #2230d2;
   color: #fff;
   transition: 0.5s;
-}
-
-#bar {
-  position: relative;
-  top: 70%
 }
 /* stylelint-disable-next-line rule */
