@@ -11,18 +11,14 @@
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 0 5%;
-  height: 20%;
-  line-height: 75px;
-  background: #fff;
-  width: 95%;
+  width: 100%;
+  margin: 5%
 }
 
 nav .navbar-logo {
   color: #6070ff;
-  width: 76px;
-  height: 20px;
+  width: 90px;
+  height: 30px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -33,7 +29,6 @@ nav .navbar-hamburger {
   display: flex;
   flex-direction: column;
   height: min-content;
-  margin: 18px -10px 0 0;
   cursor: pointer;
 }
 
@@ -45,7 +40,8 @@ nav .navbar-hamburger .bar {
   border-radius: 18%;
   transition: 0.4s;
   position: relative;
-  top: 21px;
+  right: -40%;
+  top: 5%
 }
 
 #about {
@@ -143,7 +139,6 @@ ul {
   display: flex;
   justify-content: space-between;
   width: 68%;
-  margin: 4% 0;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -324,4 +319,37 @@ button:active {
   color: #fff;
   transition: 0.5s;
 }
+
+@media (min-width: 768px) {
+  .navbar-hamburger .bar {
+  display: none;
+  }
+  
+  #about {
+    background-image: url('images/desk-shapes.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    padding-top: 10%;
+    margin: 0;
+  }
+}
+
+.left {
+  width: 70%;
+}
+.right {
+  width: 40%;
+}
+
+
+@media (max-width: 375px) {
+  div > #main_links {
+  display: none;
+ }
+}
+
+.main-links {
+  cursor: pointer;
+}
+
 /* stylelint-disable-next-line rule */
