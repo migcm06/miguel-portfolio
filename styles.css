@@ -8,18 +8,34 @@
   box-sizing: border-box;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin: 5%;
+body {
+  background-color: #f9f8f8;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
-.left { width: 40%; }
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background: white;
+  position: fixed;
+  top: 0.06%;
+  padding: 8% 4% 1%;
+}
 
-.right { width: 60%; }
+.left { 
+  position: relative;
+  left: 4%;
+  width: 50%; }
 
-.main-links {
+.right { 
+  width: 50%;
+  position: relative;
+  left: 18%;
+ }
+
+#main_links {
+  display: none;
   cursor: pointer;
   font-weight: 400;
   margin-left: 10%;
@@ -32,7 +48,6 @@ nav .navbar-logo {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 nav .navbar-hamburger {
@@ -43,7 +58,7 @@ nav .navbar-hamburger {
 }
 
 nav .navbar-hamburger .bar {
-  width: 20px;
+  width: 19px;
   height: 3px;
   margin-bottom: 4px;
   background: #6070ff;
@@ -51,17 +66,18 @@ nav .navbar-hamburger .bar {
   transition: 0.4s;
   position: relative;
   right: -40%;
-  top: 5%;
+  top: 6%;
 }
 
 #about {
+  background: white;
   background-image: url('images/shapes.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding-top: 30%;
+  padding-top: 40%;
   margin: 0;
   padding-bottom: 40%;
-  border-bottom-left-radius: 30%;
+  border-bottom-left-radius: 80px;
   margin-top: 10%;
   display: flex;
   flex-direction: column;
@@ -71,6 +87,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #e5e5e5;
 }
 
 h1 {
@@ -83,6 +100,7 @@ h1 {
   display: flex;
   align-items: center;
   color: #172b4d;
+  padding-top: 15%;
 }
 
 h2 {
@@ -146,7 +164,6 @@ ul {
   display: flex;
   justify-content: space-between;
   width: 68%;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -157,6 +174,7 @@ ul {
   background: #ebebff;
   border-radius: 8px;
   padding: 2%;
+  margin-top: 4%;
 }
 
 a { color: #6070ff; }
@@ -171,6 +189,7 @@ a { color: #6070ff; }
   transition: 0.5s;
   cursor: pointer;
   color: #396df2;
+  margin-top: 6%;
 }
 
 .button:active {
@@ -188,10 +207,17 @@ a { color: #6070ff; }
   display: flex;
   flex-direction: column;
   margin-top: 25%;
+  background-color: white;
+  padding-top: 25%;
+  border-top-right-radius: 60px;
+  padding-bottom: 10%;
+}
+
+#myself  img {
+  background: white;
 }
 
 #resume {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -325,91 +351,9 @@ button:active {
   transition: 0.5s;
 }
 
-@media (min-width: 768px) {
-  nav .navbar-logo {
-      color: #6070ff;
-      width: 80px;
-      height: 30px;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 18px;
-      font-family: 'Poppins', Arial, Helvetica, sans-serif;
+@media only screen and (min-width: 768px) {
+  .navbar-hamburger .bar {
+    display: none;
   }
-
-  .navbar-hamburger .bar { display: none; }
-
-  .left {
-      width: 70%;
-      position: relative;
-      left: 8.5%;
-  }
-
-.right {
-  width: 40%;
-  position: relative;
-  left: -9%;
-  }
-
-  #about {
-      background-image: url('images/desk-shapes.svg');
-      background-repeat: no-repeat;
-      background-size: 100% 60%;
-      padding-top: 10%;
-      margin: 0 0 0 4%;
-  }
-
-  h1 {
-    width: 35%;
-    height: 40%;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 30px;
-    color: #172b4d;
-    position: relative;
-    left: -17%;
-    top: -40%;
-  }
-
-  p {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    color: #344563;
-    line-height: 16px;
-    width: 75%;
-    padding: 0.5% 0;
-    font-size: 14px;
-    position: relative;
-    left: 3%;
-    margin-top: 1%;
-  }
-
-  #color { margin-top: 1%; }
-
-  .social {
-    display: flex;
-    align-self: start;
-    justify-content: space-around;
-    width: 20%;
-    position: relative;
-    left: 13%;
-  }
-}
-
-@media (max-width: 375px) {
-  div > #main_links {
-  display: none;
- }
-
- .right {
-  position: relative;
-  right: -18%;
-  margin-top: 1%;
- }
-}
-
-h1 {
-  padding-top: 10%;
 }
 /* stylelint-disable-next-line rule */
