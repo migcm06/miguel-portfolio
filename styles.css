@@ -349,13 +349,13 @@ button:active {
   position: relative;
   left: -9%;
   }
-  
+
   #about {
-  background-image: url('images/desk-shapes.svg');
-  background-repeat: no-repeat;
-  background-size: 100% 60%;
-  padding-top: 10%;
-  margin: 0 0 0 4%;
+      background-image: url('images/desk-shapes.svg');
+      background-repeat: no-repeat;
+      background-size: 100% 60%;
+      padding-top: 10%;
+      margin: 0 0 0 4%;
   }
 
   h1 {
