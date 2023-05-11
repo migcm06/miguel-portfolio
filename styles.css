@@ -15,6 +15,16 @@ nav {
   margin: 5%
 }
 
+.left { width: 40%; }
+
+.right { width: 60%; }
+
+.main-links {
+  cursor: pointer;
+  font-weight: 400;
+  margin-left: 10%;
+}
+
 nav .navbar-logo {
   color: #6070ff;
   width: 90px;
@@ -73,7 +83,6 @@ h1 {
   display: flex;
   align-items: center;
   color: #172b4d;
-  margin-top: 10%;
 }
 
 h2 {
@@ -107,9 +116,7 @@ p {
   line-height: 24px;
 }
 
-#color {
-  color: #7f8cff;
-}
+#color { color: #7f8cff; }
 
 .social {
   display: flex;
@@ -152,9 +159,7 @@ ul {
   padding: 2%;
 }
 
-a {
-  color: #6070ff;
-}
+a { color: #6070ff; }
 
 .button {
   display: flex;
@@ -321,35 +326,90 @@ button:active {
 }
 
 @media (min-width: 768px) {
-  .navbar-hamburger .bar {
-  display: none;
+  nav .navbar-logo {
+  color: #6070ff;
+  width: 80px;
+  height: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  }
+
+  .navbar-hamburger .bar { display: none; }
+
+  .left {
+  width: 70%;
+  position: relative;
+  left: 8.5%;
+  }
+
+  .right {
+  width: 40%;
+  position: relative;
+  left: -9%;
   }
   
   #about {
-    background-image: url('images/desk-shapes.svg');
-    background-repeat: no-repeat;
-    background-size: 100% 70%;
-    padding-top: 10%;
-    margin: 0;
+  background-image: url('images/desk-shapes.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
+  padding-top: 10%;
+  margin: 0 0 0 4%;
+  }
+
+  h1 {
+    width: 35%;
+    height: 40%;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #172b4d;
+    position: relative;
+    left: -17%;
+    top: -40%;
+  }
+
+  p {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #344563;
+    line-height: 16px;
+    width: 75%;
+    padding: 0.5% 0;
+    font-size: 14px;
+    position: relative;
+    left: 3%;
+    margin-top: 1%;
+  }
+
+  #color { margin-top: 1%; }
+
+  .social {
+    display: flex;
+    align-self: start;
+    justify-content: space-around;
+    width: 20%;
+    position: relative;
+    left: 13%;
   }
 }
-
-.left {
-  width: 70%;
-}
-.right {
-  width: 40%;
-}
-
 
 @media (max-width: 375px) {
   div > #main_links {
   display: none;
  }
+
+ .right {
+  position: relative;
+  right: -18%;
+  margin-top: 1%;
+ }
 }
 
-.main-links {
-  cursor: pointer;
+h1 {
+  padding-top: 10%;
 }
-
 /* stylelint-disable-next-line rule */
