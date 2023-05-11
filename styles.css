@@ -344,12 +344,12 @@ button:active {
       left: 8.5%;
   }
 
-  .right {
+.right {
   width: 40%;
   position: relative;
   left: -9%;
   }
-
+  
   #about {
   background-image: url('images/desk-shapes.svg');
   background-repeat: no-repeat;
