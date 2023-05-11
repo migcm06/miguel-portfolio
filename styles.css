@@ -23,17 +23,17 @@ nav {
   padding: 8% 4% 1%;
 }
 
-.left { 
+.left {
   position: relative;
   left: 7%;
   width: 80%;
 }
 
-.right { 
+.right {
   width: 29%;
   position: relative;
   left: 6%;
- }
+}
 
 #main_links {
   display: none;
@@ -234,7 +234,7 @@ ul {
   padding-bottom: 10%;
 }
 
-#myself  img {
+#myself img {
   background: white;
 }
 
@@ -376,12 +376,14 @@ button:active {
   .navbar-hamburger .bar {
     display: none;
   }
+
   #main_links {
     display: flex;
     justify-content: space-between;
     position: relative;
     right: 60%;
   }
+
   #about {
     background: white;
     background-image: url('images/desk-shapes.svg');
@@ -400,6 +402,7 @@ button:active {
     top: 0.06%;
     padding: 3% 4% 1%;
   }
+  
   #one {
     display: grid;
     grid-template-rows: 5fr;
