@@ -12,7 +12,7 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: 5%
+  margin: 5%;
 }
 
 .left { width: 40%; }
@@ -51,7 +51,7 @@ nav .navbar-hamburger .bar {
   transition: 0.4s;
   position: relative;
   right: -40%;
-  top: 5%
+  top: 5%;
 }
 
 #about {
@@ -327,21 +327,21 @@ button:active {
 
 @media (min-width: 768px) {
   nav .navbar-logo {
-  color: #6070ff;
-  width: 80px;
-  height: 30px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+      color: #6070ff;
+      width: 80px;
+      height: 30px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      font-family: 'Poppins', Arial, Helvetica, sans-serif;
   }
 
   .navbar-hamburger .bar { display: none; }
 
   .left {
-  width: 70%;
-  position: relative;
-  left: 8.5%;
+      width: 70%;
+      position: relative;
+      left: 8.5%;
   }
 
   .right {
@@ -349,7 +349,7 @@ button:active {
   position: relative;
   left: -9%;
   }
-  
+
   #about {
   background-image: url('images/desk-shapes.svg');
   background-repeat: no-repeat;
