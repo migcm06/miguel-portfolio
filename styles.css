@@ -393,6 +393,7 @@ button:active {
     margin: 0;
     padding: 16% 16% 4% 16%;
   }
+
   nav {
     display: flex;
     justify-content: space-around;
@@ -416,9 +417,9 @@ button:active {
   h1.title {
     width: 55%;
     line-height: 36px;
-    font-size: 28px
-    
+    font-size: 28px;
   }
+
   p#main_text.text {
     padding-top: 0;
     line-height: 20px;
@@ -427,7 +428,7 @@ button:active {
     margin-bottom: 0;
     padding-bottom: 0;
   }
-  
+
   p#color {
     width: 100%;
   }
@@ -440,9 +441,5 @@ button:active {
     width: 35%;
     padding-bottom: 20%;
   }
-
-
-
-
 }
 /* stylelint-disable-next-line rule */
