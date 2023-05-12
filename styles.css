@@ -620,6 +620,18 @@ p#resume {
     background-size: 100% 100%;
     padding-top: 20%;
   }
+  
+  #contact_title {
+    color: white;
+    font-size: 25px;
+  }
+
+  p#form_text {
+    font-size: 14px;
+    width: 50%;
+    line-height: 20px;
+    margin-top: -1%;
+  }
 }
 
 img.tonic.screen-pic, img.multi.screen-pic, img.face.screen-pic {
@@ -633,5 +645,4 @@ a.button.project.tonic {
 h2#last_h2.title, p#last_p.text, p#color.last, ul.social {
   margin-left: 5%;
 }
-
 /* stylelint-disable-next-line rule */
