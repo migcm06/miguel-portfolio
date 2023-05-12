@@ -549,11 +549,11 @@ p#resume {
     margin-right: 10%;
     padding: 1% 2%;
   }
-  
+
   img.face.screen-pic {
-  content: url('images/portfolio.png');
-  width: 100%;
-  height: 100%;
+    content: url('images/portfolio.png');
+    width: 100%;
+    height: 100%;
   }
 
   #last {
@@ -579,6 +579,7 @@ p#resume {
     margin-bottom: -15%;
     margin-top: -5%;
   }
+
   p#resume  {
     margin-top: -18%;
     font-size: 12px;
@@ -620,7 +621,7 @@ p#resume {
     background-size: 100% 100%;
     padding-top: 20%;
   }
-  
+
   #contact_title {
     color: white;
     font-size: 25px;
@@ -634,7 +635,9 @@ p#resume {
   }
 }
 
-img.tonic.screen-pic, img.multi.screen-pic, img.face.screen-pic {
+img.tonic.screen-pic,
+img.multi.screen-pic,
+img.face.screen-pic {
   justify-self: center;
 }
 
@@ -642,7 +645,10 @@ a.button.project.tonic {
   margin-bottom: 20%;
 }
 
-h2#last_h2.title, p#last_p.text, p#color.last, ul.social {
+h2#last_h2.title,
+p#last_p.text,
+p#color.last,
+ul.social {
   margin-left: 5%;
 }
 /* stylelint-disable-next-line rule */
