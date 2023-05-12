@@ -542,5 +542,15 @@ button:active {
     margin-right: 10%;
     padding: 1% 2%;
   }
+  
+  #tonic2 {
+  display: none;
+  }
 }
+
+img.tonic.screen-pic {
+  justify-self: center;
+}
+
+
 /* stylelint-disable-next-line rule */
