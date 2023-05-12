@@ -455,7 +455,7 @@ button:active {
     width: 100%;
     height: 100%;
   }
-  
+
   div.text-card {
     padding-left: 0;
     width: 90%;
@@ -464,9 +464,9 @@ button:active {
   #cards {
     display: flex;
     align-items: center;
-    margin: 5%
+    margin: 5%;
   }
-  
+
   h2.title.cards {
     padding: 0;
     margin: 0;
@@ -474,12 +474,12 @@ button:active {
     position: relative;
     top: 4%;
   }
-  
+
   img.frame {
     width: 50%;
     position: relative;
     top: -10%;
-    left: 2px;;
+    left: 2px;
   }
 
   p.text {
@@ -492,7 +492,7 @@ button:active {
   ul {
     width: 40%;
     position: relative;
-    top: -10%
+    top: -10%;
   }
 
   a {
@@ -509,7 +509,7 @@ button:active {
   a.button.project {
     font-size: 10px;
   }
-  
+
   .card#card_two {
     display: flex;
     width: 100%;
@@ -526,14 +526,21 @@ button:active {
     width: 50%;
     padding-left: 5%;
   }
+
   img#frame3.frame {
     content: url('images/frame3.png');
     width: auto;
     height: 10.5%;
   }
+  
   h2#multi.title.cards {
     width: 100%;
     margin-top: -12%;
+  }
+
+  li.tag {
+    margin-right: 10%;
+    padding: 1% 2%;
   }
 }
 /* stylelint-disable-next-line rule */
