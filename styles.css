@@ -368,6 +368,13 @@ button:active {
   transition: 0.5s;
 }
 
+p#resume {
+  position: relative;
+  left: 6%;
+  text-align: center;
+  width: 50%;
+}
+
 @media only screen and (min-width: 768px) {
   .navbar-hamburger .bar {
     display: none;
@@ -510,7 +517,7 @@ button:active {
     font-size: 10px;
   }
 
-  .card#card_two {
+  .card.card-two {
     display: flex;
     width: 100%;
     flex-direction: row-reverse;
@@ -522,7 +529,7 @@ button:active {
     padding-right: 2%;
   }
 
-  div#two.text-card {
+  div.two.text-card {
     width: 50%;
     padding-left: 5%;
   }
@@ -530,10 +537,10 @@ button:active {
   img#frame3.frame {
     content: url('images/frame3.png');
     width: auto;
-    height: 10.5%;
+    height: 8%;
   }
 
-  h2#multi.title.cards {
+  h2.multi.title.cards {
     width: 100%;
     margin-top: -12%;
   }
@@ -543,14 +550,88 @@ button:active {
     padding: 1% 2%;
   }
   
-  #tonic2 {
-  display: none;
+  img.face.screen-pic {
+  content: url('images/portfolio.png');
+  width: 100%;
+  height: 100%;
+  }
+
+  #last {
+    margin-top: 2%;
+    margin-bottom: 15%;
+  }
+
+  img#last_pic.pic {
+    content: url(images/portfolio2.png);
+    width: 100%;
+    margin-right: 2%;
+  }
+
+  h2#last_title.title.cards {
+    width: 100%;
+  }
+
+  section#myself {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 14%;
+    padding-bottom: 20%;
+    margin-bottom: -15%;
+    margin-top: -5%;
+  }
+  p#resume  {
+    margin-top: -18%;
+    font-size: 12px;
+    padding: 1%;
+    margin-left: 12%;
+    width: 30%;
+  }
+
+  img#skills {
+    content: url('images/skills-desk.png');
+    width: 100%;
+    height: 100%;
+  }
+
+  #last_h2 {
+    font-size: 30px;
+    padding-left: 12%;
+  }
+
+  p#last_p.text {
+    font-size: 10px;
+    padding-left: 12%;
+    padding-top: 0;
+    line-height: 15px;
+  }
+
+  p#color.last {
+    padding-left: 12%;
+  }
+
+  ul#social.social.end {
+    padding-left: 12%;
+    width: 50%;
+  }
+
+  section.contact-me {
+    background-image: url('images/form-desk.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 20%;
   }
 }
 
-img.tonic.screen-pic {
+img.tonic.screen-pic, img.multi.screen-pic, img.face.screen-pic {
   justify-self: center;
 }
 
+a.button.project.tonic {
+  margin-bottom: 20%;
+}
+
+h2#last_h2.title, p#last_p.text, p#color.last, ul.social {
+  margin-left: 5%;
+}
 
 /* stylelint-disable-next-line rule */
