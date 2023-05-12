@@ -534,7 +534,7 @@ p#resume {
     padding-left: 5%;
   }
 
-  img#frame3.frame {
+  img.frame.frame2 {
     content: url('images/frame3.png');
     width: auto;
     height: 8%;
@@ -618,7 +618,7 @@ p#resume {
   section.contact-me {
     background-image: url('images/form-desk.svg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 120%;
     padding-top: 20%;
   }
 
@@ -628,10 +628,36 @@ p#resume {
   }
 
   p#form_text {
-    font-size: 14px;
+    font-size: 13px;
     width: 50%;
     line-height: 20px;
     margin-top: -1%;
+    margin-bottom: 1%;
+  }
+
+  input {
+    padding: 1%;
+    width: 40%;
+    align-self: center;
+    border-radius: 2px;
+    margin-bottom: 2%;
+  }
+
+  textarea {
+    padding: 1% 1% 7%;
+    width: 40%;
+    border-radius: 2px;
+    align-self: center;
+    margin-bottom: 2%;
+  }
+
+  button {
+    align-self: center;
+    width: 12%;
+    font-size: 10px;
+    padding: 0;
+    border-radius: 6px;
+    position: relative;
   }
 }
 
