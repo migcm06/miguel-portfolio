@@ -596,56 +596,57 @@ button:active {
   section#myself {
     display: grid;
     grid-template-columns: 50% 50%;
-    padding-top: 14%;
     padding-bottom: 20%;
     margin-bottom: -15%;
+    border-top-right-radius: 134px;
     margin-top: -5%;
   }
 
   #resume {
-    font-size: 12px;
+    font-size: 19px;
     position: relative;
-    left: 31%;
+    left: 18%;
     bottom: -40%;
-    padding: 1%;
-    border-radius: 6px;
+    padding: 2%;
+    border-radius: 7px;
+    margin-top: 6%;
   }
 
   img#skills {
-    content: url('images/skills-desk.png');
-    width: 100%;
-    margin-top: -24%;
+    content: url(images/skills-desk.png);
+    width: 95%;
+    margin-top: -21%;
+    position: relative;
+    height: 172%;
+    left: -2%;
   }
 
   #last_h2 {
-    font-size: 30px;
-    padding-left: 26%;
-    padding-top: 4%;
+    font-size: 33px;
+    padding-left: 13%;
+    padding-top: 3%;
     margin-top: -22%;
   }
 
   p#last_p.text {
-    font-size: 13px;
-    padding-left: 25%;
+    font-size: 15px;
+    padding-left: 12%;
     padding-top: 0;
-    line-height: 20px;
-    margin-top: 4%;
+    line-height: 22px;
+    margin-top: 0%;
+    width: 95%;
   }
 
   p#color.last {
-    padding-left: 26%;
+    padding-left: 13%;
     margin-top: -3%;
-  }
-
-  ul#social {
-    padding-left: 27%;
-    width: 60%;
+    font-size: 16px;
   }
 
   div#final {
-    width: 35%;
-    margin-left: 29%;
-    margin-bottom: 4%;
+    width: 39%;
+    margin-left: 16%;
+    margin-bottom: 7%;
   }
 
   section.contact-me {
