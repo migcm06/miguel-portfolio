@@ -151,10 +151,20 @@ p {
 
 #social {
   width: 60%;
+  margin-bottom: 37%;
 }
 
 #social img {
   margin-right: 8%;
+}
+
+div#final {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: 1%;
+  margin-bottom: 8%;
 }
 
 #cards {
@@ -232,6 +242,7 @@ ul {
 
 #myself img {
   background: white;
+  margin-top: 5%;
 }
 
 #resume {
@@ -244,10 +255,9 @@ ul {
   border: 1px solid #6070ff;
   border-radius: 8px;
   padding: 4% 4%;
-  margin-top: 2%;
+  margin-bottom: 5%;
   position: relative;
-  width: auto;
-  left: -22%;
+  left: 5%;
 }
 
 #resume:hover {
@@ -368,13 +378,6 @@ button:active {
   transition: 0.5s;
 }
 
-p#resume {
-  position: relative;
-  left: 6%;
-  text-align: center;
-  width: 50%;
-}
-
 @media only screen and (min-width: 768px) {
   .navbar-hamburger .bar {
     display: none;
@@ -382,9 +385,14 @@ p#resume {
 
   #main_links {
     display: flex;
+    width: 70%;
     justify-content: space-between;
-    position: relative;
-    right: 60%;
+    margin-left: -10%;
+    margin-top: 4%;
+  }
+
+  a.main-links {
+    font-size: 11px;
   }
 
   #about {
@@ -394,7 +402,7 @@ p#resume {
     background-size: 101% 100%;
     border-bottom-left-radius: 80px;
     margin: 0;
-    padding: 16% 16% 4% 16%;
+    padding: 20% 16% 0% 16%;
   }
 
   nav {
@@ -418,18 +426,20 @@ p#resume {
   }
 
   h1.title {
-    width: 55%;
-    line-height: 36px;
-    font-size: 28px;
+    width: 50%;
+    line-height: 50px;
+    font-size: 35px;
+    position: relative;
+    top: -10%;
   }
 
   p#main_text.text {
     padding-top: 0;
     line-height: 20px;
-    font-size: 11.5px;
-    width: 100%;
-    margin-bottom: 0;
+    font-size: 16px;
+    width: 90%;
     padding-bottom: 0;
+    margin-left: -1%;
   }
 
   p#color {
@@ -440,9 +450,11 @@ p#resume {
     width: 100%;
   }
 
-  #social {
-    width: 35%;
-    padding-bottom: 20%;
+  div.social {
+    margin-left: 15%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
   }
 
   .card {
@@ -476,45 +488,53 @@ p#resume {
 
   h2.title.cards {
     padding: 0;
-    margin: 0;
-    font-size: 30px;
+    margin-top: -16%;
+    font-size: 40px;
     position: relative;
-    top: 4%;
+    top: 11%;
+    margin-bottom: 2%;
   }
 
   img.frame {
-    width: 50%;
+    width: 60%;
     position: relative;
-    top: -10%;
-    left: 2px;
+    top: -6%;
+    left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
   }
 
   p.text {
-    font-size: 9px;
-    line-height: 14px;
+    font-size: 10.5px;
+    line-height: 16px;
     position: relative;
     top: -10%;
+    left: 1%;
+    margin: 1% 0;
   }
 
   ul {
     width: 40%;
     position: relative;
     top: -10%;
+    margin-bottom: 3%;
   }
 
   a {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .button {
-    padding: 1% 1%;
-    width: 30%;
+    padding: 1% 2%;
+    width: 23%;
     position: relative;
     top: -6%;
+    border-radius: 6px;
+    margin-top: 6%;
   }
 
   a.button.project {
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .card.card-two {
@@ -543,11 +563,12 @@ p#resume {
   h2.multi.title.cards {
     width: 100%;
     margin-top: -12%;
+    font-size: 30px;
   }
 
   li.tag {
     margin-right: 10%;
-    padding: 1% 2%;
+    padding: 0 6%;
   }
 
   img.face.screen-pic {
@@ -569,6 +590,7 @@ p#resume {
 
   h2#last_title.title.cards {
     width: 100%;
+    font-size: 30px;
   }
 
   section#myself {
@@ -580,39 +602,50 @@ p#resume {
     margin-top: -5%;
   }
 
-  p#resume {
-    margin-top: -18%;
+  #resume {
     font-size: 12px;
+    position: relative;
+    left: 31%;
+    bottom: -40%;
     padding: 1%;
-    margin-left: 12%;
-    width: 30%;
+    border-radius: 6px
   }
 
   img#skills {
     content: url('images/skills-desk.png');
     width: 100%;
-    height: 100%;
+    margin-top: -24%;
   }
 
   #last_h2 {
     font-size: 30px;
-    padding-left: 12%;
+    padding-left: 26%;
+    padding-top: 4%;
+    margin-top: -22%;
   }
 
   p#last_p.text {
-    font-size: 10px;
-    padding-left: 12%;
+    font-size: 13px;
+    padding-left: 25%;
     padding-top: 0;
-    line-height: 15px;
+    line-height: 20px;
+    margin-top: 4%;
   }
 
   p#color.last {
-    padding-left: 12%;
+    padding-left: 26%;
+    margin-top: -3%;
   }
 
-  ul#social.social.end {
-    padding-left: 12%;
-    width: 50%;
+  ul#social {
+    padding-left: 27%;
+    width: 60%; 
+  }
+
+  div#final {
+    width: 35%;
+    margin-left: 29%;
+    margin-bottom: 4%;
   }
 
   section.contact-me {
@@ -671,10 +704,12 @@ a.button.project.tonic {
   margin-bottom: 20%;
 }
 
-h2#last_h2.title,
 p#last_p.text,
 p#color.last,
 ul.social {
   margin-left: 5%;
+}
+#last_h2 {
+  margin-left: 5%
 }
 /* stylelint-disable-next-line rule */
