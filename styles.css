@@ -608,7 +608,7 @@ button:active {
     left: 31%;
     bottom: -40%;
     padding: 1%;
-    border-radius: 6px
+    border-radius: 6px;
   }
 
   img#skills {
@@ -639,7 +639,7 @@ button:active {
 
   ul#social {
     padding-left: 27%;
-    width: 60%; 
+    width: 60%;
   }
 
   div#final {
@@ -710,7 +710,8 @@ p#color.last,
 ul.social {
   margin-left: 5%;
 }
+
 #last_h2 {
-  margin-left: 5%
+  margin-left: 5%;
 }
 /* stylelint-disable-next-line rule */
