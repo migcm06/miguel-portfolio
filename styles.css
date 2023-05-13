@@ -23,6 +23,10 @@ nav {
   padding: 8% 4% 1%;
 }
 
+.logo:hover {
+  transform: rotate(5deg);;
+}
+
 .left {
   position: relative;
   left: 7%;
