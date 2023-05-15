@@ -51,7 +51,9 @@ The project uses the following technologies: Git, Github, linters (stylelint, Li
 
 
 
+
 - [Live Demo Link] (https://migcm06.github.io/miguel-portfolio/)
+
 
 This is a screenshot of the project mobile version.
 
