@@ -25,6 +25,7 @@ nav {
 
 .logo:hover {
   transform: rotate(5deg);
+  transition: 1.5s;
 }
 
 .left {
