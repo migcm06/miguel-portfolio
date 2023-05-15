@@ -51,11 +51,17 @@ The project uses the following technologies: Git, Github, linters (stylelint, Li
 
 
 
-- [Live Demo Link]((https://migcm06.github.io/miguel-portfolio/)
 
-This is a screenshot of the project.
+- [Live Demo Link] (https://migcm06.github.io/miguel-portfolio/)
+
+
+This is a screenshot of the project mobile version.
 
 <img src="screenshot.png" alt="logo" width="600"  height="auto" />
+
+And this is a screenshot taken from a desktop.
+
+<img src="desktop.png" all="Screenshot" width="600" height="auto">
 
 
 
