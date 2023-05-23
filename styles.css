@@ -46,10 +46,12 @@ nav {
 }
 /* stylelint-enable */
 
+/* stylelint-disable */
 #close:hover {
   transform: scale(165%);
   transition: 1s;
 }
+/* stylelint-enable */
 
 .navbar-logo {
   margin-left: 5%;
@@ -76,7 +78,6 @@ nav {
   opacity: 1;
   visibility: visible;
 }
-
 
 #main_links {
   display: flex;
@@ -425,7 +426,6 @@ button:active {
 }
 
 @media only screen and (min-width: 768px) {
-
   a.navbar-logo {
     margin-left: -1%;
   }
