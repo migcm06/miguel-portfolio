@@ -26,6 +26,11 @@ nav {
   margin-top: -7%;
 }
 
+#open:hover {
+  transform: scale(110%);
+  transition: 1s;
+}
+
 #close {
   background: transparent;
   color: white;
@@ -59,7 +64,15 @@ nav {
   height: 100vh;
   background: rgba(96, 112, 255, 0.9);
   backdrop-filter: blur(3px);
+  opacity: 0;
+  visibility: hidden;
 }
+
+.menu-mobile.observable {
+  opacity: 1;
+  visibility: visible;
+}
+
 
 #main_links {
   display: flex;
