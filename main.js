@@ -11,7 +11,7 @@ close.addEventListener('click', () => {
   menuMobile.classList.remove('observable');
 });
 
-links.forEach(link => {
+links.forEach((link) => {
   link.addEventListener('click', () => {
     menuMobile.classList.remove('observable');
   });
