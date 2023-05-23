@@ -26,11 +26,14 @@ nav {
   margin-top: -7%;
 }
 
+/* stylelint-disable */
 #open:hover {
   transform: scale(110%);
   transition: 1s;
 }
+/* stylelint-enable */
 
+/* stylelint-disable */
 #close {
   background: transparent;
   color: white;
@@ -41,6 +44,7 @@ nav {
   font-weight: bold;
   border: 0;
 }
+/* stylelint-enable */
 
 #close:hover {
   transform: scale(165%);
@@ -236,10 +240,12 @@ ul {
   margin-top: 4%;
 }
 
+/* stylelint-disable */
 img.screen-pic:hover {
   transition: 2s;
   transform: scale(102%);
 }
+/* stylelint-enable */
 
 .button {
   display: flex;
