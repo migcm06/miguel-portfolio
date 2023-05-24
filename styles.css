@@ -436,7 +436,22 @@ button:active {
 
 @media only screen and (min-width: 768px) {
   a.navbar-logo {
-    margin-left: -1%;
+    left: -567%;
+  }
+
+  #open, #close {
+    display: none;
+  }
+
+  .menu-mobile {
+    opacity: 1;
+    visibility: visible;
+    background: transparent;
+    backdrop-filter: none;
+  }
+
+  .menu-mobile a {
+    color: #344563;
   }
 
   #main_links {
@@ -446,7 +461,9 @@ button:active {
 
   ul#main_links {
     position: relative;
-    left: -5%;
+    flex-direction: row;
+    padding-top: 7%;
+    left: 4%;
   }
 
   #about {
@@ -463,10 +480,11 @@ button:active {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background: white;
+    background: rgb(255 255 255);
     position: fixed;
     top: 0.06%;
     padding: 3% 4% 1%;
+    z-index: 120;
   }
 
   #one {
