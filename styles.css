@@ -211,76 +211,6 @@ div#final {
   margin-bottom: 8%;
 }
 
-#cards {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-}
-
-.card {
-  display: grid;
-  grid-gap: 1.5%;
-  box-sizing: border-box;
-  padding-top: 10%;
-  padding-bottom: 20%;
-  width: 90%;
-  height: auto;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  margin: 15% 5%;
-}
-
-.pic { justify-self: center; }
-
-ul {
-  display: flex;
-  justify-content: space-between;
-  width: 68%;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.tag {
-  background: #ebebff;
-  border-radius: 8px;
-  padding: 2%;
-  margin-top: 4%;
-}
-
-/* stylelint-disable */
-img.screen-pic:hover {
-  transition: 2s;
-  transform: scale(102%);
-}
-/* stylelint-enable */
-
-.button {
-  display: flex;
-  justify-content: center;
-  width: 40%;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  padding: 4% 4%;
-  transition: 0.5s;
-  cursor: pointer;
-  color: #396df2;
-  margin-top: 6%;
-}
-
-.button:active {
-  background: #2230d2;
-  color: #fff;
-}
-
-.button:hover {
-  background: #6070ff;
-  color: #fff;
-  transition: 0.5s;
-}
-
 #myself {
   display: flex;
   flex-direction: column;
@@ -316,8 +246,6 @@ img.screen-pic:hover {
   color: #fff;
   transition: 0.5s;
 }
-
-.text-card { padding-left: 8%; }
 
 .contact-me {
   background-color: #6070ff;
@@ -436,7 +364,7 @@ button:active {
 
 @media only screen and (min-width: 768px) {
   a.navbar-logo {
-    left: -567%;
+    left: -660%;
   }
 
   #open, #close {
@@ -448,6 +376,9 @@ button:active {
     visibility: visible;
     background: transparent;
     backdrop-filter: none;
+    height: auto;
+    top: -10%;
+    margin-top: -3%;
   }
 
   .menu-mobile a {
@@ -462,7 +393,7 @@ button:active {
   ul#main_links {
     position: relative;
     flex-direction: row;
-    padding-top: 7%;
+    padding-top: 10%;
     left: 4%;
   }
 
@@ -485,6 +416,7 @@ button:active {
     top: 0.06%;
     padding: 3% 4% 1%;
     z-index: 120;
+    left: 7%;
   }
 
   #one {
@@ -529,53 +461,6 @@ button:active {
     flex-direction: column;
   }
 
-  .card {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 4%;
-    width: 100%;
-    height: auto;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 24px;
-    padding: 2% 0 2% 2%;
-  }
-
-  .screen-pic.tonic {
-    content: url('images/portfolio-desktop.png');
-    width: 100%;
-    height: 100%;
-  }
-
-  div.text-card {
-    padding-left: 0;
-    width: 90%;
-  }
-
-  #cards {
-    display: flex;
-    align-items: center;
-    margin: 5%;
-  }
-
-  h2.title.cards {
-    padding: 0;
-    margin-top: -16%;
-    font-size: 40px;
-    position: relative;
-    top: 11%;
-    margin-bottom: 2%;
-  }
-
-  img.frame {
-    width: 60%;
-    position: relative;
-    top: -6%;
-    left: 1%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-  }
-
   p.text {
     font-size: 10.5px;
     line-height: 16px;
@@ -596,53 +481,6 @@ button:active {
     font-size: 12px;
   }
 
-  .button {
-    padding: 1% 2%;
-    width: 23%;
-    position: relative;
-    top: -6%;
-    border-radius: 6px;
-    margin-top: 6%;
-  }
-
-  a.button.project {
-    font-size: 11px;
-  }
-
-  .card.card-two {
-    display: flex;
-    width: 100%;
-    flex-direction: row-reverse;
-  }
-
-  .screen-pic.multi {
-    content: url('images/portfolio-desktop-2.png');
-    width: 50%;
-    padding-right: 2%;
-  }
-
-  div.two.text-card {
-    width: 50%;
-    padding-left: 5%;
-  }
-
-  img.frame.frame2 {
-    content: url('images/frame3.png');
-    width: auto;
-    height: 8%;
-  }
-
-  h2.multi.title.cards {
-    width: 100%;
-    margin-top: -12%;
-    font-size: 30px;
-  }
-
-  li.tag {
-    margin-right: 10%;
-    padding: 0 6%;
-  }
-
   img.face.screen-pic {
     content: url('images/portfolio.png');
     width: 100%;
@@ -658,11 +496,6 @@ button:active {
     content: url(images/portfolio2.png);
     width: 100%;
     margin-right: 2%;
-  }
-
-  h2#last_title.title.cards {
-    width: 100%;
-    font-size: 30px;
   }
 
   section#myself {
