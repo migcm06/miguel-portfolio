@@ -257,7 +257,7 @@ img.screen-pic:hover {
 }
 /* stylelint-enable */
 
-.button {
+.button-project {
   display: flex;
   justify-content: center;
   width: 40%;
@@ -270,12 +270,12 @@ img.screen-pic:hover {
   margin-top: 6%;
 }
 
-.button:active {
+.button-.button-project {
   background: #2230d2;
   color: #fff;
 }
 
-.button:hover {
+.button-project:hover {
   background: #6070ff;
   color: #fff;
   transition: 0.5s;
@@ -596,7 +596,7 @@ button:active {
     font-size: 12px;
   }
 
-  .button {
+  .button-project {
     padding: 1% 2%;
     width: 23%;
     position: relative;
@@ -605,7 +605,7 @@ button:active {
     margin-top: 6%;
   }
 
-  a.button.project {
+  a.button-project {
     font-size: 11px;
   }
 
@@ -774,7 +774,7 @@ img.face.screen-pic {
   justify-self: center;
 }
 
-a.button.project.tonic {
+a.button-project.tonic {
   margin-bottom: 20%;
 }
 
@@ -786,5 +786,9 @@ ul.social {
 
 #last_h2 {
   margin-left: 5%;
+}
+
+.hidden {
+  display: none;
 }
 /* stylelint-disable-next-line rule */

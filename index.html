@@ -64,31 +64,32 @@
 
         <div class="card" id="card_one">
             <img src="images/portfolio.png" alt="a_screentshot" class="tonic screen-pic">
-
+          
             <div class="text-card">
-                <h2 class="title cards">Tonic</h2>
-
-                <img src="images/fame2.png" alt="frame" class="frame">
-
-                <p class="text">
-                    A daily selection of privately personalized reads; no accounts or sign-ups required.
-                </p>
-
-                <ul>
-                    <li class="tag">
-                        <a href="">html</a>
-                    </li>
-                    <li class="tag">
-                        <a href="">css</a>
-                    </li>
-                    <li class="tag">
-                        <a href="">javaScript</a>
-                    </li>
-                </ul>
-
-                <a href="#" class="button-project">See project</a>
+              <h2 class="title cards">Tonic</h2>
+          
+              <img src="images/fame2.png" alt="frame" class="frame">
+          
+              <p class="text">
+                A daily selection of privately personalized reads; no accounts or sign-ups required.
+              </p>
+          
+              <ul>
+                <li class="tag">
+                  <a href="#">html</a>
+                </li>
+                <li class="tag">
+                  <a href="#">css</a>
+                </li>
+                <li class="tag">
+                  <a href="#">javaScript</a>
+                </li>
+              </ul>
+          
+              <a href="#" class="button-project"  onclick="openPopup()">See project</a>
             </div>
-        </div>
+          </div>
+          
 
         <div class="card card-two">
             <img src="images/portfolio2.png" alt="a_screentshot" class="multi screen-pic">
@@ -113,7 +114,7 @@
                     </li>
                 </ul>
 
-                <a href="#" class="button-project">See project</a>
+                <a href="#" class="button-project"  onclick="openPopup()">See project</a>
             </div>
         </div>
     </section>
@@ -166,9 +167,14 @@
 
     
     </section>
-    <section id="pop_up" class="hidden">
 
-    </section>
+    <div class="overlay hidden">
+        <div class="pop-up" id="pop-up">
+            <button id="close_pop" class="close-pop"><i class="bi bi-x-lg"></i></button>
+        </div>
+    </div>
+    
+
         <script src='./main.js'></script>
         <script src='./pop-up.js'></script>
 
