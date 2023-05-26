@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pop-up.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <title>Miguel Cuello's Portfolio</title>
 </head>
@@ -169,14 +170,15 @@
     </section>
 
     <div class="overlay hidden">
-        <div class="pop-up" id="pop-up">
+        <div class="pop-up hidden" id="pop-up" onclick="closePopup()">
             <button id="close_pop" class="close-pop"><i class="bi bi-x-lg"></i></button>
         </div>
     </div>
     
 
-        <script src='./main.js'></script>
-        <script src='./pop-up.js'></script>
+    <script src="./main.js"></script>
+    <script src="./pop-up.js"></script>
+    
 
 </body>
 
