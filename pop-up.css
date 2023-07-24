@@ -9,9 +9,8 @@
   backdrop-filter: blur(4px);
   display: none;
   z-index: 130;
-  overflow-y: auto; 
+  overflow-y: auto;
 }
-
 
 .pop-up {
   position: fixed;
@@ -25,7 +24,6 @@
   max-height: calc(100% - 40px);
   border-radius: 15px;
   width: 75%;
-
 }
 
 div#close-pop {
@@ -46,7 +44,7 @@ div#close-pop {
 
 .pop-up-image.desktop {
   width: 100%;
-  height: 250px; 
+  height: 250px;
 }
 
 a.btn {
@@ -82,4 +80,3 @@ a.project-tech {
   font-weight: 300;
   margin-top: 3%;
 }
-

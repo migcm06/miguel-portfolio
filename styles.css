@@ -439,7 +439,8 @@ button:active {
     left: -567%;
   }
 
-  #open, #close {
+  #open,
+  #close {
     display: none;
   }
 
@@ -462,7 +463,7 @@ button:active {
   ul#main_links {
     position: relative;
     flex-direction: row;
-    padding-top: 3%;
+    padding-top: 7%;
     left: 4%;
   }
 
