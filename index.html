@@ -13,96 +13,80 @@
 
 <body>
     <header>
-        
         <nav>
             <div class="nav">
-        <a class="navbar-logo" href="#">
-            My Logo
-        </a>
-            <button id="open" class="open-menu"><i class="bi bi-list"></i></button>
-            <div class="menu-mobile" id="menu">
-                <button id="close" class="close-menu"><i class="bi bi-x-lg"></i></button>
-                <ul id="main_links">
-                <li class="link"><a href="#cards">Portfolio</a></li>
-                <li class="link"><a href="#myself">About</a></li></li>
-                <li class="link"><a href="#contactme">Contact</a></li></li>
-                </ul>
+                <a class="navbar-logo" href="#">
+                    My Logo
+                </a>
+                <button id="open" class="open-menu"><i class="bi bi-list"></i></button>
+                <div class="menu-mobile" id="menu">
+                    <button id="close" class="close-menu"><i class="bi bi-x-lg"></i></button>
+                    <ul id="main_links">
+                        <li class="link"><a href="#cards">Portfolio</a></li>
+                        <li class="link"><a href="#myself">About</a></li>
+                        <li class="link"><a href="#contactme">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-       
-            
         </nav>
     </header>
-
 
     <section class="main" id="about">
         <div id="one">
             <h1 class="title">
-                I’m Miguel Cuello.
+                I’m Migue.
                 Glad to see you!
             </h1>
             <p class="text" id="main_text">
-                I’m a software developer! I can help you build a product , feature or website Look through some of my
+                I’m a software developer! I can help you build a product, feature, or website. Look through some of my
                 work and experience! If you like what you see and have a project you need coded, don’t hesitate to
-                contact me.
+                contact me. 
             </p>
             <div class="lets-connect">
                 <p id="color">LET’S CONNECT</p>
-
                 <div id="social">
                     <a href="#"><img src="images/twitter.svg" id="twitter" class="icon"></a>
                     <a href="#"><img src="images/linkedin.svg" id="linkedin" class="icon"></a>
                     <a href="#"><img src="images/hand.svg" id="hand" class="icon"></a>
                     <a href="#"><img src="images/git.svg" id="github" class="icon"></a>
                     <a href="#"><img src="images/M.svg" id="m" class="icon"></a>
-                    </ul>
                 </div>
-
             </div>
+        </div>
     </section>
 
     <section id="cards">
-
         <div class="card" id="card_one">
-            <img src="images/portfolio.png" alt="a_screentshot" class="tonic screen-pic">
-          
+            <img src="images/portfolio.png" alt="a_screenshot" class="tonic screen-pic">
             <div class="text-card">
-              <h2 class="title cards">Tonic</h2>
-          
-              <img src="images/fame2.png" alt="frame" class="frame">
-          
-              <p class="text">
-                A daily selection of privately personalized reads; no accounts or sign-ups required.
-              </p>
-          
-              <ul>
-                <li class="tag">
-                  <a href="#">html</a>
-                </li>
-                <li class="tag">
-                  <a href="#">css</a>
-                </li>
-                <li class="tag">
-                  <a href="#">javaScript</a>
-                </li>
-              </ul>
-          
-              <a href="#" class="button-project"  onclick="openPopup()">See project</a>
+                <h2 class="title cards">Tonic</h2>
+                <img src="images/fame2.png" alt="frame" class="frame">
+                <p class="text">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+                </p>
+                <ul>
+                    <li class="tag">
+                        <a href="#">html</a>
+                    </li>
+                    <li class="tag">
+                        <a href="#">css</a>
+                    </li>
+                    <li class="tag">
+                        <a href="#">javaScript</a>
+                    </li>
+                </ul>
+                <a href="#" class="button-project" onclick="openPopup(0)">See project</a>
             </div>
-          </div>
-          
+        </div>
 
         <div class="card card-two">
-            <img src="images/portfolio2.png" alt="a_screentshot" class="multi screen-pic">
-
+            <img src="images/portfolio2.png" alt="a_screenshot" class="multi screen-pic">
             <div class="text-card two">
                 <h2 class="title cards multi">Multi-Post Stories</h2>
-
                 <img src="images/fame2.png" class="frame frame2">
                 <p class="text">
                     A daily selection of privately personalized reads; no accounts or sign-ups required.
                 </p>
-
                 <ul class="code-links">
                     <li class="tag">
                         <a href="">html</a>
@@ -114,10 +98,14 @@
                         <a href="">javaScript</a>
                     </li>
                 </ul>
-
-                <a href="#" class="button-project"  onclick="openPopup()">See project</a>
+                <a href="#" class="button-project" onclick="openPopup(1)">See project</a>
             </div>
         </div>
+    </section> 
+
+    <div class="overlay"></div>
+    <section class="pop-up-container">
+        <div class="pop-up"></div>
     </section>
 
     <section id="myself">
@@ -126,7 +114,7 @@
                 About Myself
             </h2>
             <p class="text" id="last_p">
-                I’m a software developer! I can help you build a product , feature or website Look through some of my
+                I’m a software developer! I can help you build a product, feature, or website. Look through some of my
                 work and experience! If you like what you see and have a project you need coded, don’t hesitate to
                 contact me.
             </p>
@@ -137,7 +125,6 @@
                 <a href="#"><img src="images/hand.svg" class="icon"></a>
                 <a href="#"><img src="images/twitter.svg" id="twitter" class="icon"></a>
                 <a href="#"><img src="images/M.svg" class="icon"></a>
-                </ul>
             </div>
             <a id="resume">Get my resume</a>
         </div>
@@ -145,41 +132,63 @@
     </section>
 
     <section class="contact-me" id="contactme">
-
         <div class="text-contact">
             <h3 id="contact_title">
                 Contact me
             </h3>
-
         </div>
         <p id="form_text">
-            If you have an application you are interested in developing, a feature that you need built or a project that
-            needs coding. I’d love to help with it!
+            If you have an application you are interested in developing, a feature that you need built, or a project that
+            needs coding, I’d love to help with it!
         </p>
-
-        <form action='https://formspree.io/f/xlekzqzw' method="POST" id="form">
+        <form action="https://formspree.io/f/xlekzqzw" method="POST" id="form">
             <input type="text" name="name" required placeholder="Name" maxlength="30">
             <input type="email" name="email" required placeholder="loremipsum@gmail.com">
             <textarea id="comments" class="input-textarea" name="comment" required
                 placeholder="Write your message here..." maxlength="500"></textarea>
             <button type="submit">Get in touch</button>
-
         </form>
-
-    
     </section>
-
-    <div class="overlay hidden">
-        <div class="pop-up hidden" id="pop-up" onclick="closePopup()">
-            <button id="close_pop" class="close-pop"><i class="bi bi-x-lg"></i></button>
-        </div>
-    </div>
     
+    <!--<div class="overlay hidden"></div>
+    <section class="pop-up hidden">
+        <div id="close-pop"><i class="bi bi-x-lg"></i></div>
+        <h2 class="title">Tonic</h2>
+        <img src="./images/fame2.png" class="frame-pop">
+        <div class="pop-up-img">
+        
+          <img
+            src="./images/popUp.png"
+            alt="Backgroun image"
+            class="pop-up-tonic desktop"
+          />
+        </div>
+        <div class="text">dorime</div>
+        <div class="tag">
+        </div>
+        <div class="buttons pop-up">
+          <button
+            class="btn btn-seelive"
+            href='https://github.com/migcm06/miguel-portfolio.git'
+            target="_blank"
+          >
+            See Live
+          </button>
+          <button
+            class="btn btn--source"
+            target="_blank"
+            href='https://github.com/migcm06/miguel-portfolio.git'
+          >
+            <span>See Source</span>
+          </button>
+        </div>
+      </section>-->
+    
+
 
     <script src="./main.js"></script>
     <script src="./pop-up.js"></script>
-    
-
 </body>
 
 </html>
+
