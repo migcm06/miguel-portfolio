@@ -453,6 +453,7 @@ button:active {
 
   .menu-mobile a {
     color: #344563;
+    font-size: 12px;
   }
 
   #main_links {
@@ -585,10 +586,6 @@ button:active {
     position: relative;
     top: -10%;
     margin-bottom: 3%;
-  }
-
-  a {
-    font-size: 12px;
   }
 
   .button-project {
