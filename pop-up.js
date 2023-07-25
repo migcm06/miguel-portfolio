@@ -39,9 +39,7 @@ function openPopup(index) {
     </div>
     <div class="text-pop-up">${project.textPopUp}</div>
     <div class="right-links">
-    <div class="tag-pop-up">
-      ${project.technologies.map(tech => `<a href="#" class="project-tech">${tech}</a>`).join('')}
-    </div>
+    <div class="tag-pop-up">${project.technologies.map((tech) => `<a href="#" class="project-tech">${tech}</a>`).join('')}</div>
     <div class="buttons-pop">
     <a class="btn-pop" href="${project.seeLive}" target="_blank">See Live <img src="./images/Export.svg" class="icon-pop"></a>
     <a class="btn-pop" href="${project.seeSource}" target="_blank">See Source <img src="./images/Github.svg" class="icon-pop"></a>
