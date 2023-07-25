@@ -23,7 +23,7 @@
   padding: 2%;
   max-height: calc(100% - 40px);
   border-radius: 15px;
-  width: 75%;
+  width: 65%;
 }
 
 div #close-pop {
@@ -79,4 +79,18 @@ a.project-tech {
   font-size: 12px;
   font-weight: 300;
   margin-top: 3%;
+}
+
+.buttons-pop {
+  margin-left: 53%;
+  position: relative;
+  margin-top: -24%;
+}
+
+.btn-pop {
+  color: #6070ff;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 2% 5%;
+  margin-right: 10%;
 }
