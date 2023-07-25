@@ -543,6 +543,7 @@ button:active {
     border: 1px solid #dfe1e6;
     border-radius: 24px;
     padding: 2% 0 2% 2%;
+    margin: 6% 5%;
   }
 
   div.text-card {
@@ -603,12 +604,20 @@ button:active {
     font-size: 11px;
   }
 
+  .card.card-one {
+    width: 100%;
+  }
+
   .card.card-two {
     display: flex;
     width: 100%;
     flex-direction: row-reverse;
+  }  
+  
+  .screen-pic.tonic {
+    content: url('images/snapport.png');
+    width: 100%;
   }
-
   .screen-pic.multi {
     content: url('images/portfolio-desktop-2.png');
     width: 50%;
@@ -630,6 +639,10 @@ button:active {
     width: 100%;
     margin-top: -12%;
     font-size: 30px;
+  }
+
+  h2.tonic.title.cards {
+    margin-top: -33%;
   }
 
   li.tag {
