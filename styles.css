@@ -449,6 +449,8 @@ button:active {
     visibility: visible;
     background: transparent;
     backdrop-filter: none;
+    height: auto;
+    margin-top: -5%;
   }
 
   .menu-mobile a {
