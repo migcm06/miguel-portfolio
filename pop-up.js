@@ -59,3 +59,4 @@ function openPopup(index) {
     popUp.style.display = 'none';
   });
 }
+/* eslint-enable no-unused-vars */
