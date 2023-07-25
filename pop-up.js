@@ -24,7 +24,6 @@ function openPopup(index) {
   const popUpContainer = document.querySelector('.pop-up-container');
   const popUp = document.querySelector('.pop-up');
   const project = projects[index];
-  const buttons = document.querySelector('.button-project');
 
   const popupHTML = `
   <div id="close-pop"><i class="bi bi-x"></i></div>
@@ -55,8 +54,9 @@ function openPopup(index) {
   popUpContainer.style.display = 'block';
 
   const closeBtn = document.getElementById('close-pop');
-  closeBtn.addEventListener('click', function () {
+  function hideOverlay () {
     overlay.style.display = 'none';
     popUp.style.display = 'none';
-  });
+  }
+  closeBtn.addEventListener('click', hideOverlay());
 }
