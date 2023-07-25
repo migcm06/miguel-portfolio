@@ -18,7 +18,7 @@ const projects = [
     seeSource: 'https://github.com/migcm06/miguel-portfolio.git',
   },
 ];
-/* eslint-enable no-unused-vars */
+/* eslint-disable no-unused-vars */
 function openPopup(index) {
   const overlay = document.querySelector('.overlay');
   const popUpContainer = document.querySelector('.pop-up-container');
