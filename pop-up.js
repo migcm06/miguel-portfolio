@@ -40,7 +40,7 @@ function openPopup(index) {
     <div class="text-pop-up">${project.textPopUp}</div>
     <div class="right-links">
     <div class="tag-pop-up">
-      ${project.technologies.map(tech => `<a href="#" class="project-tech">${tech}</a>`).join('')}
+      ${project.technologies.map((tech) => (`<a href="#" class="project-tech">${tech}</a>`).join(''))}
     </div>
     <div class="buttons-pop">
     <a class="btn-pop" href="${project.seeLive}" target="_blank">See Live <img src="./images/Export.svg" class="icon-pop"></a>
@@ -49,17 +49,14 @@ function openPopup(index) {
   </div>
   `;
 
-
-
   popUp.innerHTML = popupHTML;
   overlay.style.display = 'block';
   popUp.style.display = 'block';
   popUpContainer.style.display = 'block';
 
-  let closeBtn = document.getElementById('close-pop');
+  const closeBtn = document.getElementById('close-pop');
   closeBtn.addEventListener('click', function () {
     overlay.style.display = 'none';
     popUp.style.display = 'none';
   });
 }
-
