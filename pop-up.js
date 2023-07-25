@@ -18,7 +18,6 @@ const projects = [
     seeSource: 'https://github.com/migcm06/miguel-portfolio.git',
   },
 ];
-
 /* eslint-enable no-unused-vars */
 function openPopup(index) {
   const overlay = document.querySelector('.overlay');
@@ -60,4 +59,5 @@ function openPopup(index) {
     overlay.style.display = 'none';
     popUp.style.display = 'none';
   });
-}/* eslint-enable no-unused-vars */
+}
+/* eslint-enable no-unused-vars */
