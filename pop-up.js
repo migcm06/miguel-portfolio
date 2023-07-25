@@ -60,5 +60,4 @@ function openPopup(index) {
     overlay.style.display = 'none';
     popUp.style.display = 'none';
   });
-}
-/* eslint-enable no-unused-vars */
+}/* eslint-enable no-unused-vars */
