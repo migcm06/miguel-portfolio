@@ -20,13 +20,12 @@ const projects = [
 ];
 
 function openPopup(index) {
-  let overlay = document.querySelector('.overlay');
-  let popUpContainer = document.querySelector('.pop-up-container');
-  let popUp = document.querySelector('.pop-up');
-  let project = projects[index];
+  const overlay = document.querySelector('.overlay');
+  const popUpContainer = document.querySelector('.pop-up-container');
+  const popUp = document.querySelector('.pop-up');
+  const project = projects[index];
 
-
-  let popupHTML = `
+  const popupHTML = `
   <div id="close-pop"><i class="bi bi-x"></i></div>
     <h2 class="title-pop-up">${project.name}</h2>
     <img src="${project.frame}" class="frame-pop">
@@ -40,7 +39,7 @@ function openPopup(index) {
     <div class="text-pop-up">${project.textPopUp}</div>
     <div class="right-links">
     <div class="tag-pop-up">
-      ${project.technologies.map(tech => `<a href="#" class="project-tech">${tech}</a>`).join('')}
+      ${project.technologies.map(tech => (`<a href="#" class="project-tech">${tech}</a>`).join(''))}
     </div>
     <div class="buttons">
     <a class="btn btn-seelive" href="${project.seeLive}" target="_blank">See Live</a>
@@ -55,8 +54,6 @@ function openPopup(index) {
   popUp.style.display = 'block';
   popUpContainer.style.display = 'block';
 
-
-  
   let closeBtn = document.getElementById('close-pop');
   closeBtn.addEventListener('click', function () {
     overlay.style.display = 'none';

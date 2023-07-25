@@ -612,12 +612,13 @@ button:active {
     display: flex;
     width: 100%;
     flex-direction: row-reverse;
-  }  
-  
+  }
+
   .screen-pic.tonic {
     content: url('images/snapport.png');
     width: 100%;
   }
+
   .screen-pic.multi {
     content: url('images/portfolio-desktop-2.png');
     width: 50%;
