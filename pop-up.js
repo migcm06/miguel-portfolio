@@ -54,7 +54,7 @@ function openPopup(index) {
   popUpContainer.style.display = 'block';
 
   const closeBtn = document.getElementById('close-pop');
-  function hideOverlay () {
+  function hideOverlay() {
     overlay.style.display = 'none';
     popUp.style.display = 'none';
   }
