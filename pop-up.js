@@ -46,7 +46,6 @@ function openPopup(index) {
     <a class="btn btn--source" href="${project.seeSource}" target="_blank">See Source</a>
   </div>
   </div>
-
   `;
 
   popUp.innerHTML = popupHTML;
@@ -60,5 +59,3 @@ function openPopup(index) {
     popUp.style.display = 'none';
   });
 }
-
-  
