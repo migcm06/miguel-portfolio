@@ -53,7 +53,7 @@ function openPopup(index) {
   popUpContainer.style.display = 'block';
 
   const closeBtn = document.getElementById('close-pop');
-  closeBtn.addEventListener('click', => () {
+  closeBtn.addEventListener('click', () => {
     overlay.style.display = 'none';
     popUp.style.display = 'none';
   });
