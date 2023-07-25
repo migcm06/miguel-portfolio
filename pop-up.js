@@ -19,6 +19,7 @@ const projects = [
   },
 ];
 
+/* eslint-enable no-unused-vars */
 function openPopup(index) {
   const overlay = document.querySelector('.overlay');
   const popUpContainer = document.querySelector('.pop-up-container');
@@ -54,9 +55,10 @@ function openPopup(index) {
   popUp.style.display = 'block';
   popUpContainer.style.display = 'block';
 
-  let closeBtn = document.getElementById('close-pop');
+  const closeBtn = document.getElementById('close-pop');
   closeBtn.addEventListener('click', function () {
     overlay.style.display = 'none';
     popUp.style.display = 'none';
   });
 }
+/* eslint-enable no-unused-vars */
