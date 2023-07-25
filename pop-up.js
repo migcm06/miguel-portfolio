@@ -47,17 +47,15 @@ function openPopup(index) {
   </div>
   </div>
   `;
-
+  
   popUp.innerHTML = popupHTML;
   overlay.style.display = 'block';
   popUp.style.display = 'block';
   popUpContainer.style.display = 'block';
 
-  const closeBtn = document.getElementById('close-pop');
-  function hideOverlay() {
+  let closeBtn = document.getElementById('close-pop');
+  closeBtn.addEventListener('click', function () {
     overlay.style.display = 'none';
     popUp.style.display = 'none';
-  }
-  closeBtn.addEventListener('click', hideOverlay());
+  });
 }
-/* eslint-enable no-unused-vars */
