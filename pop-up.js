@@ -49,8 +49,6 @@ function openPopup(index) {
   </div>
   `;
 
-
-
   popUp.innerHTML = popupHTML;
   overlay.style.display = 'block';
   popUp.style.display = 'block';
