@@ -1,23 +1,49 @@
-const projects = [
-  {
-    name: 'Tonic',
-    frame: './images/fame2.png',
-    cover: './images/popUp.png',
-    textPopUp: 'Lorem ipsum dolor sit amet  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi voluptatibus consequatur iure consequuntur odit, ex ipsa debitis. Reiciendis veniam quae corporis non quis voluptatem nam maiores? Molestiae facere praesentium laborum?',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    seeLive: 'https://example.com',
-    seeSource: 'https://github.com/migcm06/miguel-portfolio.git',
-  },
-  {
-    name: 'Multi-Post',
-    frame: './images/fame2.png',
-    cover: './images/popUp.png',
-    textPopUp: 'Lorem ipsum dolor sit amet  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi voluptatibus consequatur iure consequuntur odit, ex ipsa debitis. Reiciendis veniam quae corporis non quis voluptatem nam maiores? Molestiae facere praesentium laborum?',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Query'],
-    seeLive: 'https://example.com',
-    seeSource: 'https://github.com/migcm06/miguel-portfolio.git',
-  },
-];
+document.addEventListener("DOMContentLoaded", () => {
+
+  const projects = [
+    {
+      title: "Tonic",
+      imgSrc: "./images/portfolio.png",
+      description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      tags: ["html", "css", "javaScript"],
+      popupIndex: 0,
+    },
+    {
+      title: "Multi-Post Stories",
+      imgSrc: "./images/portfolio2.png",
+      description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      tags: ["html", "css", "javaScript", "Ruby"],
+      popupIndex: 1,
+      isSecondProject: true,
+    },
+  ];
+
+  const cardsSection = document.getElementById("cards");
+
+  projects.forEach((project) => {
+    const projectCard = document.createElement("div");
+    projectCard.classList.add("grid-item");
+    if (project.isSecondProject) {
+    projectCard.classList.add("second-project");
+    }
+
+    projectCard.innerHTML = `
+      <img src="${project.imgSrc}" alt="a_screenshot" class="screen-pic">
+      <div class="text-card">
+        <h2 class="title cards">${project.title}</h2>
+        <p class="text">${project.description}</p>
+        <ul class="code-links">
+          ${project.tags.map((tag) => `<li class="tag"><a href="#">${tag}</a></li>`).join("")}
+        </ul>
+        <a href="#" class="button-project" onclick="openPopup(${project.popupIndex})">See project</a>
+      </div>
+    `;
+
+    cardsSection.appendChild(projectCard);
+  });
+});
+
+
 /* eslint-disable no-unused-vars */
 function openPopup(index) {
   const overlay = document.querySelector('.overlay');
