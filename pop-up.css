@@ -26,6 +26,11 @@
   height: 90%;
 }
 
+#close-pop {
+  font-size: 25px;
+  color: #67798e;
+}
+
 div #close-pop {
   cursor: pointer;
   position: absolute;
@@ -93,11 +98,6 @@ a.project-tech {
   border-radius: 8px;
   padding: 2% 6%;
   margin-right: 10%;
-}
-
-#close-pop {
-  font-size: 25px;
-  color: #67798e;
 }
 
 .icon-pop {
