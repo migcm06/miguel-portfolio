@@ -42,7 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-
 const projects = [
   {
     name: 'Tonic',
