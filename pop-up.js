@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
-
+document.addEventListener('DOMContentLoaded', () => {
   const projects = [
     {
       title: "Tonic",
