@@ -1,29 +1,29 @@
 document.addEventListener('DOMContentLoaded', () => {
   const projects = [
     {
-      title: "Tonic",
-      imgSrc: "./images/portfolio.png",
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-      tags: ["html", "css", "javaScript"],
+      title: 'Tonic',
+      imgSrc: './images/portfolio.png',
+      description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      tags: ['html', 'css', 'javaScript'],
       popupIndex: 0,
     },
     {
-      title: "Multi-Post Stories",
-      imgSrc: "./images/portfolio2.png",
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-      tags: ["html", "css", "javaScript", "Ruby"],
+      title: 'Multi-Post Stories',
+      imgSrc: './images/portfolio2.png',
+      description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      tags: ['html', 'css', 'javaScript', 'Ruby'],
       popupIndex: 1,
       isSecondProject: true,
     },
   ];
 
-  const cardsSection = document.getElementById("cards");
+  const cardsSection = document.getElementById('cards';
 
   projects.forEach((project) => {
-    const projectCard = document.createElement("div");
-    projectCard.classList.add("grid-item");
+    const projectCard = document.createElement('div');
+    projectCard.classList.add('grid-item');
     if (project.isSecondProject) {
-    projectCard.classList.add("second-project");
+      projectCard.classList.add('second-project');
     }
 
     projectCard.innerHTML = `
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <h2 class="title cards">${project.title}</h2>
         <p class="text">${project.description}</p>
         <ul class="code-links">
-          ${project.tags.map((tag) => `<li class="tag"><a href="#">${tag}</a></li>`).join("")}
+          ${project.tags.map((tag) => `<li class="tag"><a href="#">${tag}</a></li>`).join('')}
         </ul>
         <a href="#" class="button-project" onclick="openPopup(${project.popupIndex})">See project</a>
       </div>
@@ -41,7 +41,6 @@ document.addEventListener('DOMContentLoaded', () => {
     cardsSection.appendChild(projectCard);
   });
 });
-
 
 /* eslint-disable no-unused-vars */
 function openPopup(index) {

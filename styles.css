@@ -810,12 +810,7 @@ button:active {
 
   .grid-item.second-project {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "img content";
-  }
-
-  .grid-item.second-project {
-    grid-template-columns: 1fr 1fr;
-    direction: rtl; 
+    direction: rtl;
   }
 }
 
