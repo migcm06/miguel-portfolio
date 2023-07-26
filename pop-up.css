@@ -4,8 +4,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #c1c7d0;
-  mix-blend-mode: multiply;
+  background-color: #c1c7d0a3;
   backdrop-filter: blur(4px);
   display: none;
   z-index: 130;
@@ -24,18 +23,20 @@
   max-height: calc(100% - 40px);
   border-radius: 15px;
   width: 65%;
+  height: 90%;
 }
 
 div #close-pop {
   cursor: pointer;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 23px;
+  right: 23px;
 }
 
 .title-pop-up {
   font-size: 24px;
-  margin-bottom: -8px;
+  margin-bottom: -11%;
+  margin-top: -10%;
 }
 
 .frame-pop {
@@ -54,11 +55,9 @@ a.btn {
 .tag-pop-up {
   border-radius: 8px;
   padding: 2%;
-  margin-top: 4%;
-  position: relative;
-  top: -193px;
-  left: 50%;
+  margin-top: -14%;
   width: 50%;
+  margin-left: 55%;
 }
 
 a.project-tech {
@@ -79,18 +78,29 @@ a.project-tech {
   font-size: 12px;
   font-weight: 300;
   margin-top: 3%;
+  line-height: 21px;
 }
 
 .buttons-pop {
-  margin-left: 53%;
+  margin-left: 57%;
   position: relative;
-  margin-top: -24%;
+  margin-top: 3%;
 }
 
 .btn-pop {
   color: #6070ff;
   border: 1px solid;
   border-radius: 8px;
-  padding: 2% 5%;
+  padding: 2% 6%;
   margin-right: 10%;
+}
+
+#close-pop {
+  font-size: 25px;
+  color: #67798e;
+}
+
+.icon-pop {
+  position: relative;
+  top: 6px;
 }

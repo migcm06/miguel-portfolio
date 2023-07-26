@@ -244,9 +244,9 @@ ul {
 }
 
 .tag {
-  background: #4545ae;
+  background: #ebebff;
   border-radius: 8px;
-  padding: 2%;
+  padding: 4% 3%; 
   margin-top: 4%;
 }
 
@@ -567,12 +567,17 @@ button:active {
   }
 
   img.frame {
-    width: 60%;
+    width: 113%;
     position: relative;
     top: -6%;
     left: 1%;
     margin-top: 1%;
     margin-bottom: 1%;
+  }
+
+  img.frame2 {
+    width: 59%;
+  margin-left: -5%;
   }
 
   p.text {
@@ -582,6 +587,12 @@ button:active {
     top: -10%;
     left: 1%;
     margin: 1% 0;
+    width: 128%;
+  }
+
+  p.text-multi {
+    margin-left: -5%;
+    width: 82%;
   }
 
   ul {
@@ -591,17 +602,28 @@ button:active {
     margin-bottom: 3%;
   }
 
+  .code-links-multi {
+    margin-left: -5%;
+    width: 52%;
+  }
+
   .button-project {
-    padding: 1% 2%;
-    width: 23%;
+    width: 51%;
+    padding: 4% 8%;
     position: relative;
     top: -6%;
     border-radius: 6px;
     margin-top: 6%;
   }
 
+  .button-project.b-multi {
+    width: 30%;
+    padding: 2% 0%;
+    margin-left: -5%;
+  }
+
   a.button-project {
-    font-size: 11px;
+    font-size: 15px;
   }
 
   .card.card-one {
@@ -630,16 +652,11 @@ button:active {
     padding-left: 5%;
   }
 
-  img.frame.frame2 {
-    content: url('images/frame3.png');
-    width: auto;
-    height: 8%;
-  }
-
   h2.multi.title.cards {
     width: 100%;
-    margin-top: -12%;
-    font-size: 30px;
+    margin-top: -18%;
+    font-size: 40px;
+    margin-left: -5%;
   }
 
   h2.tonic.title.cards {
@@ -793,5 +810,9 @@ ul.social {
 
 #last_h2 {
   margin-left: 5%;
+}
+
+.a-tag {
+  color: #6070ff;
 }
 /* stylelint-disable-next-line rule */

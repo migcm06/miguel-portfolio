@@ -3,7 +3,7 @@ const projects = [
     name: 'Tonic',
     frame: './images/fame2.png',
     cover: './images/popUp.png',
-    textPopUp: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</br> Lorem Ipsum is simply dummy text of the printing and typesetting indust. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    textPopUp: 'Lorem ipsum dolor sit amet  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi voluptatibus consequatur iure consequuntur odit, ex ipsa debitis. Reiciendis veniam quae corporis non quis voluptatem nam maiores? Molestiae facere praesentium laborum?',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     seeLive: 'https://example.com',
     seeSource: 'https://github.com/migcm06/miguel-portfolio.git',
