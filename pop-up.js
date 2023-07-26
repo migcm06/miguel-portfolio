@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
   ];
 
-  const cardsSection = document.getElementById('cards';
+  const cardsSection = document.getElementById('cards');
 
   projects.forEach((project) => {
     const projectCard = document.createElement('div');
@@ -42,6 +42,27 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+
+const projects = [
+  {
+    name: 'Tonic',
+    frame: './images/fame2.png',
+    cover: './images/popUp.png',
+    textPopUp: 'Lorem ipsum dolor sit amet  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi voluptatibus consequatur iure consequuntur odit, ex ipsa debitis. Reiciendis veniam quae corporis non quis voluptatem nam maiores? Molestiae facere praesentium laborum?',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    seeLive: 'https://example.com',
+    seeSource: 'https://github.com/migcm06/miguel-portfolio.git',
+  },
+  {
+    name: 'Multi-Post',
+    frame: './images/fame2.png',
+    cover: './images/popUp.png',
+    textPopUp: 'Lorem ipsum dolor sit amet  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi voluptatibus consequatur iure consequuntur odit, ex ipsa debitis. Reiciendis veniam quae corporis non quis voluptatem nam maiores? Molestiae facere praesentium laborum?',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Query'],
+    seeLive: 'https://example.com',
+    seeSource: 'https://github.com/migcm06/miguel-portfolio.git',
+  },
+];
 /* eslint-disable no-unused-vars */
 function openPopup(index) {
   const overlay = document.querySelector('.overlay');
