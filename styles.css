@@ -833,7 +833,7 @@ button:active {
     display: flex;
     justify-content: center;
     align-self: center;
-    animation: shake 0.3s ease-in-out;
+    animation: shake 1s ease-in-out;
     animation-fill-mode: both;
   }
 
