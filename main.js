@@ -1,3 +1,14 @@
+function showErrorMessage(message) {
+  const errorDiv = document.getElementById('email-error');
+  errorDiv.textContent = message;
+  errorDiv.classList.add('active');
+}
+
+function hideErrorMessage() {
+  const errorDiv = document.getElementById('email-error');
+  errorDiv.classList.remove('active');
+}
+
 const menuMobile = document.querySelector('#menu');
 const open = document.querySelector('#open');
 const close = document.querySelector('#close');
@@ -52,17 +63,6 @@ document.getElementById('form').addEventListener('submit', (event) => {
 
   form.submit();
 });
-
-function showErrorMessage(message) {
-  const errorDiv = document.getElementById('email-error');
-  errorDiv.textContent = message;
-  errorDiv.classList.add('active');
-}
-
-function hideErrorMessage() {
-  const errorDiv = document.getElementById('email-error');
-  errorDiv.classList.remove('active');
-}
 
 document.getElementById('form').addEventListener('input', (event) => {
   const emailInput = event.target.elements.email;
