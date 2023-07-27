@@ -780,6 +780,7 @@ button:active {
     border-radius: 2px;
     align-self: center;
     margin-bottom: 2%;
+    color: #172b4d;
   }
 
   button {
@@ -811,6 +812,31 @@ button:active {
   .grid-item.second-project {
     grid-template-columns: 1fr 1fr;
     direction: rtl;
+  }
+
+  .error-message {
+    display: none;
+    background-color: #e26432;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 14px;
+    width: 30%;
+}
+
+.error-message.active {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    animation: shake 0.3s ease-in-out;
+    animation-fill-mode: both;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25%, 75% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
   }
 }
 
