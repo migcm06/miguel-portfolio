@@ -22,13 +22,13 @@ function isValidEmail(email) {
   return emailRegex.test(email);
 }
 
-document.getElementById('form').addEventListener('submit', (event) => {
+document.getElementById("form").addEventListener("submit", function(event) {
   event.preventDefault();
 
   const form = event.target;
-  const nameInput = form.elements['name'];
-  const emailInput = form.elements['email'];
-  const commentInput = form.elements['comment'];
+  const nameInput = form.elements["name"];
+  const emailInput = form.elements["email"];
+  const commentInput = form.elements["comment"];
 
   if (nameInput.value.trim() === "") {
       showErrorMessage("Please enter your name.");
