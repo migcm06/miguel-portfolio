@@ -71,16 +71,6 @@ nav {
 a {
   color: white;
 }
-#form-footer {
-  display: flex;
-  gap: 25px;
-  width: 73%;
-  margin-left: 30%;
-}
-
-#form-footer button {
-  width: 169px;
-}
 
 .menu-mobile {
   position: fixed;
@@ -883,5 +873,16 @@ ul.social {
 
 .a-tag {
   color: #6070ff;
+}
+
+#form-footer {
+  display: flex;
+  gap: 25px;
+  width: 73%;
+  margin-left: 30%;
+}
+
+#form-footer button {
+  width: 169px;
 }
 /* stylelint-disable-next-line rule */
