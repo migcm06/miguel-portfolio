@@ -31,22 +31,22 @@ document.getElementById('form').addEventListener('submit', (event) => {
   const commentInput = form.elements['comment'];
 
   if (nameInput.value.trim() === "") {
-      showError("Please enter your name.");
+      showErrorMessage("Please enter your name.");
       return;
   }
 
   if (!isValidEmail(emailInput.value.trim())) {
-      showError("Please enter a valid email address.");
+      showErrorMessage("Please enter a valid email address.");
       return;
   }
 
   if (emailInput.value !== emailInput.value.toLowerCase()) {
-      showError("Please, use only lowercase.");
+      showErrorMessage("Please, use only lowercase.");
       return;
   }
 
   if (commentInput.value.trim() === "") {
-      showError("Please write your message.");
+      showErrorMessage("Please write your message.");
       return;
   }
 
