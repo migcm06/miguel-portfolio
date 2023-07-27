@@ -41,7 +41,7 @@ document.getElementById("form").addEventListener("submit", function(event) {
   }
 
   if (emailInput.value !== emailInput.value.toLowerCase()) {
-      showErrorMessage("Please enter the email address in lowercase.");
+      showErrorMessage("Please, use only lowercase.");
       return;
   }
 
@@ -64,7 +64,6 @@ function hideErrorMessage() {
   errorDiv.classList.remove("active");
 }
 
-// Ocultar el mensaje de error cuando el usuario comienza a editar el campo de correo electrónico.
 document.getElementById("form").addEventListener("input", function(event) {
   const emailInput = event.target.elements["email"];
   if (isValidEmail(emailInput.value.trim())) {
