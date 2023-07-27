@@ -46,8 +46,8 @@ document.getElementById('form').addEventListener('submit', (event) => {
   }
 
   if (commentInput.value.trim() === '') {
-      showErrorMessage('Please write your message.');
-      return;
+    showErrorMessage('Please write your message.');
+    return;
   }
 
   form.submit();
@@ -64,9 +64,9 @@ function hideErrorMessage() {
   errorDiv.classList.remove('active');
 }
 
-document.getElementById('form').addEventListener('input', function(event) {
-  const emailInput = event.target.elements['email'];
+document.getElementById('form').addEventListener('input', (event) => {
+  const emailInput = event.target.elements.email;
   if (isValidEmail(emailInput.value.trim())) {
-      hideErrorMessage();
+    hideErrorMessage();
   }
 });
