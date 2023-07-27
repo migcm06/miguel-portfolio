@@ -231,7 +231,9 @@ div#final {
   margin: 15% 5%;
 }
 
-.pic { justify-self: center; }
+.pic {
+  justify-self: center;
+}
 
 ul {
   display: flex;
@@ -244,9 +246,9 @@ ul {
 }
 
 .tag {
-  background: #4545ae;
+  background: #ebebff;
   border-radius: 8px;
-  padding: 2%;
+  padding: 4% 3%;
   margin-top: 4%;
 }
 
@@ -317,7 +319,9 @@ img.screen-pic:hover {
   transition: 0.5s;
 }
 
-.text-card { padding-left: 8%; }
+.text-card {
+  padding-left: 8%;
+}
 
 .contact-me {
   background-color: #6070ff;
@@ -449,6 +453,8 @@ button:active {
     visibility: visible;
     background: transparent;
     backdrop-filter: none;
+    height: auto;
+    margin-top: -5%;
   }
 
   .menu-mobile a {
@@ -541,6 +547,7 @@ button:active {
     border: 1px solid #dfe1e6;
     border-radius: 24px;
     padding: 2% 0 2% 2%;
+    margin: 6% 5%;
   }
 
   div.text-card {
@@ -564,12 +571,17 @@ button:active {
   }
 
   img.frame {
-    width: 60%;
+    width: 113%;
     position: relative;
     top: -6%;
     left: 1%;
     margin-top: 1%;
     margin-bottom: 1%;
+  }
+
+  img.frame2 {
+    width: 59%;
+    margin-left: -5%;
   }
 
   p.text {
@@ -579,6 +591,12 @@ button:active {
     top: -10%;
     left: 1%;
     margin: 1% 0;
+    width: 128%;
+  }
+
+  p.text-multi {
+    margin-left: -5%;
+    width: 82%;
   }
 
   ul {
@@ -588,23 +606,43 @@ button:active {
     margin-bottom: 3%;
   }
 
+  .code-links-multi {
+    margin-left: -5%;
+    width: 52%;
+  }
+
   .button-project {
-    padding: 1% 2%;
-    width: 23%;
+    width: 51%;
+    padding: 4% 8%;
     position: relative;
     top: -6%;
     border-radius: 6px;
     margin-top: 6%;
   }
 
+  .button-project.b-multi {
+    width: 30%;
+    padding: 2% 0%;
+    margin-left: -5%;
+  }
+
   a.button-project {
-    font-size: 11px;
+    font-size: 15px;
+  }
+
+  .card.card-one {
+    width: 100%;
   }
 
   .card.card-two {
     display: flex;
     width: 100%;
     flex-direction: row-reverse;
+  }
+
+  .screen-pic.tonic {
+    content: url('images/snapport.png');
+    width: 100%;
   }
 
   .screen-pic.multi {
@@ -618,16 +656,15 @@ button:active {
     padding-left: 5%;
   }
 
-  img.frame.frame2 {
-    content: url('images/frame3.png');
-    width: auto;
-    height: 8%;
-  }
-
   h2.multi.title.cards {
     width: 100%;
-    margin-top: -12%;
-    font-size: 30px;
+    margin-top: -18%;
+    font-size: 40px;
+    margin-left: -5%;
+  }
+
+  h2.tonic.title.cards {
+    margin-top: -33%;
   }
 
   li.tag {
@@ -747,6 +784,7 @@ button:active {
     border-radius: 2px;
     align-self: center;
     margin-bottom: 2%;
+    color: #172b4d;
   }
 
   button {
@@ -757,6 +795,55 @@ button:active {
     border-radius: 6px;
     position: relative;
     margin-top: 0.5%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+  }
+
+  .grid-item {
+    background-color: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 24px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .grid-item.second-project {
+    grid-template-columns: 1fr 1fr;
+    direction: rtl;
+  }
+
+  .error-message {
+    display: none;
+    background-color: #e26432;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 14px;
+    width: 30%;
+  }
+
+  .error-message.active {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    animation: shake 1s ease-in-out;
+    animation-fill-mode: both;
+  }
+
+  @keyframes shake {
+    0%,
+    100% { transform: translateX(0); }
+
+    25%,
+    75% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
   }
 }
 
@@ -777,5 +864,20 @@ ul.social {
 
 #last_h2 {
   margin-left: 5%;
+}
+
+.a-tag {
+  color: #6070ff;
+}
+
+#form-footer {
+  display: flex;
+  gap: 25px;
+  width: 73%;
+  margin-left: 30%;
+}
+
+#form-footer button {
+  width: 169px;
 }
 /* stylelint-disable-next-line rule */
