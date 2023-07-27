@@ -71,6 +71,16 @@ nav {
 a {
   color: white;
 }
+#form-footer {
+  display: flex;
+  gap: 25px;
+  width: 73%;
+  margin-left: 30%;
+}
+
+#form-footer button {
+  width: 169px;
+}
 
 .menu-mobile {
   position: fixed;
@@ -231,7 +241,9 @@ div#final {
   margin: 15% 5%;
 }
 
-.pic { justify-self: center; }
+.pic {
+  justify-self: center;
+}
 
 ul {
   display: flex;
@@ -317,7 +329,9 @@ img.screen-pic:hover {
   transition: 0.5s;
 }
 
-.text-card { padding-left: 8%; }
+.text-card {
+  padding-left: 8%;
+}
 
 .contact-me {
   background-color: #6070ff;
@@ -823,20 +837,28 @@ button:active {
     margin-top: 5px;
     font-size: 14px;
     width: 30%;
-}
+  }
 
-.error-message.active {
+  .error-message.active {
     display: flex;
     justify-content: center;
     align-self: center;
     animation: shake 0.3s ease-in-out;
     animation-fill-mode: both;
-}
+  }
 
-@keyframes shake {
-    0%, 100% { transform: translateX(0); }
-    25%, 75% { transform: translateX(-10px); }
-    50% { transform: translateX(10px); }
+  @keyframes shake {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    25%,
+    75% {
+      transform: translateX(-10px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
   }
 }
 

@@ -41,7 +41,7 @@ document.getElementById("form").addEventListener("submit", function(event) {
   }
 
   if (emailInput.value !== emailInput.value.toLowerCase()) {
-      showErrorMessage("Please enter the email address in lowercase.");
+      showErrorMessage("Please, use only lowercase.");
       return;
   }
 
