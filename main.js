@@ -22,27 +22,27 @@ function isValidEmail(email) {
   return emailRegex.test(email);
 }
 
-document.getElementById('form').addEventListener('submit', function(event) {
+document.getElementById('form').addEventListener('submit', (event) => {
   event.preventDefault();
 
   const form = event.target;
-  const nameInput = form.elements['name'];
-  const emailInput = form.elements['email'];
-  const commentInput = form.elements['comment'];
+  const nameInput = form.elements.name;
+  const emailInput = form.elements.email;
+  const commentInput = form.elements.comment;
 
   if (nameInput.value.trim() === '') {
-      showErrorMessage('Please enter your name.');
-      return;
+    showErrorMessage('Please enter your name.');
+    return;
   }
 
   if (!isValidEmail(emailInput.value.trim())) {
-      showErrorMessage('Please enter a valid email address.');
-      return;
+    showErrorMessage('Please enter a valid email address.');
+    return;
   }
 
   if (emailInput.value !== emailInput.value.toLowerCase()) {
-      showErrorMessage('Please, use only lowercase.');
-      return;
+    showErrorMessage('Please, use only lowercase.');
+    return;
   }
 
   if (commentInput.value.trim() === '') {
