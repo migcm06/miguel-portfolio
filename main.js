@@ -33,10 +33,10 @@ function isValidEmail(email) {
   return emailRegex.test(email);
 }
 
-document.getElementById('form').addEventListener('submit', (event) => {
-  event.preventDefault();
+const form = document.getElementById('form');
 
-  const form = event.target;
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
   const nameInput = form.elements.name;
   const emailInput = form.elements.email;
   const commentInput = form.elements.comment;
@@ -70,3 +70,17 @@ document.getElementById('form').addEventListener('input', (event) => {
     hideErrorMessage();
   }
 });
+
+// FORM STORAGE FUNCTIONALITY
+
+// SAVE THE FORMS' VALUES
+const formArr = Array.from(document.querySelectorAll("form *"))
+for(let i = 0; i < formArr.length; i += 1) {
+  formArr[i].onchange = saveForm
+}
+
+function saveForm(element) {
+  // use the local storage api to save the form's elements values
+  // TODO save values to localStorage
+  localStorage.setItem()
+}
