@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       title: 'Facebook 360',
       imgSrc: './images/portfolio.png',
-      frame: './images/frame3.png',
+      frame: './images/fame2.png',
       description: 'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
       description_popUp: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
       tags: ['html', 'css', 'javaScript', 'Ruby'],
@@ -54,6 +54,11 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="#" class="button-project" onclick="openPopup(${project.popupIndex})">See project</a>
       </div>
     `;
+
+    if (project.title === 'Facebook 360') {
+      const titleElement = projectCard.querySelector('.title');
+      titleElement.style.marginTop = '-6%';
+    }
 
     cardsSection.appendChild(projectCard);
 

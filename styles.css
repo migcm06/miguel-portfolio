@@ -879,4 +879,12 @@ ul.social {
 #form-footer button {
   width: 169px;
 }
+
+.second-project h2.title.cards {
+  margin-top: -5%;
+}
+
+.card:nth-child(3) img.frame {
+  width: 74%;
+}
 /* stylelint-disable-next-line rule */
