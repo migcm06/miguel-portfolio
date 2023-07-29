@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <img src="${project.imgSrc}" alt="a_screenshot" class="screen-pic">
       <div class="text-card">
         <h2 class="title cards">${project.title}</h2>
-        <img src="${project.frame}" alt="date">
+        <img src="${project.frame}" alt="date" class="card-frame">
         <p class="text">${project.description}</p>
         <ul class="code-links">
           ${project.tags.map((tag) => `<li class="tag"><a href="#">${tag}</a></li>`).join('')}
