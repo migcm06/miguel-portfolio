@@ -253,6 +253,10 @@ ul {
   margin-top: 4%;
 }
 
+img.screen-pic {
+  justify-self: center;
+}
+
 /* stylelint-disable */
 img.screen-pic:hover {
   transition: 2s;
@@ -845,10 +849,6 @@ button:active {
     75% { transform: translateX(-10px); }
     50% { transform: translateX(10px); }
   }
-}
-
-img.screen-pic {
-  justify-self: center;
 }
 
 a.button-project.tonic {
