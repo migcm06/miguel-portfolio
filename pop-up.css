@@ -21,9 +21,9 @@
   z-index: 132;
   padding: 2%;
   max-height: calc(100% - 40px);
-  border-radius: 25px;
+  border-radius: 12px;
   width: 90%;
-  height: 87%;
+  height: 90%;
   margin-top: 8%;
 }
 
@@ -101,7 +101,7 @@ a.project-tech {
 
 .buttons-pop {
   position: relative;
-  margin-top: 8%;
+  margin-top: 3%;
   display: flex;
   justify-content: space-between;
   width: 100%;
