@@ -60,7 +60,9 @@ div #close-pop {
 
 .pop-up-image.desktop {
   width: 100%;
-  height: 250px;
+  height: 276px;
+  position: relative;
+  top: 9%;
 }
 
 a.btn {
@@ -115,4 +117,52 @@ a.project-tech {
 .icon-pop {
   position: relative;
   top: 6px;
+}
+
+@media screen and (min-width: 769px) {
+    .pop-up {
+      top: 35%;
+      width: 60%;
+    }
+
+    .title-pop-up {
+      font-size: 26px;
+      position: relative;
+      top: -5%;
+    }
+
+    .frame-pop  {
+      width: 36%;
+      top: -13%;
+    }
+
+    .pop-up-img {
+      top: -13%;
+    }
+
+    .text-pop-up {
+      width: 65%;
+      top: -9%;
+    }
+
+    .tag-pop-up {
+      position: relative;
+      left: 64%;
+      margin-top: -21%;
+    }
+
+    .buttons-pop {
+      width: 40%;
+      margin-top: 1%;
+      margin-left: 62%;
+      justify-content: space-around;
+    }
+
+    .btn-pop {
+      color: #6070ff;
+      border: 1px solid;
+      border-radius: 8px;
+      padding: 0% 3%;
+      font-size: 13px;
+    }
 }
