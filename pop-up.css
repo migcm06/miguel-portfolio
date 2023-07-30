@@ -8,12 +8,12 @@
   backdrop-filter: blur(4px);
   display: none;
   z-index: 130;
-  overflow-y: auto;
+  overflow: hidden;
 }
 
 .pop-up {
   position: fixed;
-  top: 50%;
+  top: 44%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
@@ -21,36 +21,49 @@
   z-index: 132;
   padding: 2%;
   max-height: calc(100% - 40px);
-  border-radius: 15px;
-  width: 65%;
+  border-radius: 12px;
+  width: 90%;
   height: 90%;
+  margin-top: 8%;
+  overflow: hidden;
 }
 
 #close-pop {
-  font-size: 25px;
+  font-size: 31px;
   color: #67798e;
 }
 
 div #close-pop {
   cursor: pointer;
   position: absolute;
-  top: 23px;
-  right: 23px;
+  top: 2%;
+  right: 1%;
 }
 
 .title-pop-up {
   font-size: 24px;
-  margin-bottom: -11%;
-  margin-top: -10%;
+  position: relative;
+  top: -10%;
 }
 
 .frame-pop {
-  width: 20%;
+  width: 65%;
+  position: relative;
+  top: -24%;
+}
+
+.pop-up-img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -25%;
 }
 
 .pop-up-image.desktop {
   width: 100%;
-  height: 250px;
+  height: 276px;
+  position: relative;
+  top: 9%;
 }
 
 a.btn {
@@ -60,9 +73,9 @@ a.btn {
 .tag-pop-up {
   border-radius: 8px;
   padding: 2%;
-  margin-top: -14%;
-  width: 50%;
-  margin-left: 55%;
+  margin-top: -43%;
+  width: 75%;
+  margin-left: -2%;
 }
 
 a.project-tech {
@@ -79,28 +92,100 @@ a.project-tech {
 }
 
 .text-pop-up {
-  width: 50%;
+  width: 100%;
   font-size: 12px;
   font-weight: 300;
-  margin-top: 3%;
   line-height: 21px;
+  position: relative;
+  top: -24%;
 }
 
 .buttons-pop {
-  margin-left: 57%;
   position: relative;
   margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .btn-pop {
   color: #6070ff;
   border: 1px solid;
   border-radius: 8px;
-  padding: 2% 6%;
-  margin-right: 10%;
+  padding: 0% 6%;
 }
 
 .icon-pop {
   position: relative;
   top: 6px;
+}
+
+@media screen and (min-width: 769px) {
+  .pop-up {
+    top: 35%;
+    width: 60%;
+    height: 97%;
+  }
+
+  .title-pop-up {
+    font-size: 26px;
+    position: relative;
+    top: -5%;
+  }
+
+  .frame-pop {
+    width: 36%;
+    top: -13%;
+  }
+
+  .pop-up-img {
+    top: -13%;
+  }
+
+  .text-pop-up {
+    width: 65%;
+    top: -9%;
+  }
+
+  .tag-pop-up {
+    position: relative;
+    left: 64%;
+    margin-top: -23%;
+    width: 27%;
+    margin-bottom: 2%;
+  }
+
+  .buttons-pop {
+    width: 38%;
+    margin-top: -2%;
+    margin-left: 63%;
+    justify-content: space-around;
+  }
+
+  .btn-pop {
+    color: #6070ff;
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 1% 7%;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon-pop {
+    top: 0;
+  }
+
+  .gray-line {
+    width: 139%;
+    margin-top: 8%;
+  }
+}
+
+.gray-line {
+  width: 154%;
+  height: 1px;
+  background: #ebecf0;
+  position: relative;
+  margin-top: 8%;
 }

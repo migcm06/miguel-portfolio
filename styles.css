@@ -23,7 +23,7 @@ nav {
 
 #open {
   font-size: 160%;
-  left: 473%;
+  left: 439%;
   position: relative;
   top: -40%;
   padding: 1%;
@@ -69,7 +69,7 @@ nav {
 }
 
 a {
-  color: white;
+  color: #6070ff;
 }
 
 .menu-mobile {
@@ -162,6 +162,8 @@ h2 {
   display: flex;
   align-items: center;
   color: #172b4d;
+  margin-top: -10%;
+  margin-bottom: -7%;
 }
 
 p {
@@ -224,7 +226,6 @@ div#final {
   padding-top: 10%;
   padding-bottom: 20%;
   width: 90%;
-  height: auto;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -238,7 +239,7 @@ div#final {
 ul {
   display: flex;
   justify-content: space-between;
-  width: 68%;
+  width: 90%;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -250,6 +251,10 @@ ul {
   border-radius: 8px;
   padding: 4% 3%;
   margin-top: 4%;
+}
+
+img.screen-pic {
+  justify-self: center;
 }
 
 /* stylelint-disable */
@@ -570,6 +575,10 @@ button:active {
     margin-bottom: 2%;
   }
 
+  .screen-pic {
+    width: 100%;
+  }
+
   img.frame {
     width: 113%;
     position: relative;
@@ -585,13 +594,13 @@ button:active {
   }
 
   p.text {
-    font-size: 10.5px;
+    font-size: 14.5px;
     line-height: 16px;
     position: relative;
-    top: -10%;
+    top: -8%;
     left: 1%;
     margin: 1% 0;
-    width: 128%;
+    width: 100%;
   }
 
   p.text-multi {
@@ -602,7 +611,7 @@ button:active {
   ul {
     width: 40%;
     position: relative;
-    top: -10%;
+    top: -6%;
     margin-bottom: 3%;
   }
 
@@ -627,7 +636,9 @@ button:active {
   }
 
   a.button-project {
-    font-size: 15px;
+    font-size: 19px;
+    width: 31%;
+    padding: 2% 4%;
   }
 
   .card.card-one {
@@ -804,7 +815,6 @@ button:active {
   }
 
   .grid-item {
-    background-color: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 24px;
     padding: 20px;
@@ -814,8 +824,8 @@ button:active {
   }
 
   .grid-item.second-project {
-    grid-template-columns: 1fr 1fr;
-    direction: rtl;
+    display: flex;
+    flex-direction: row-reverse;
   }
 
   .error-message {
@@ -845,11 +855,13 @@ button:active {
     75% { transform: translateX(-10px); }
     50% { transform: translateX(10px); }
   }
-}
 
-img.tonic.screen-pic,
-img.multi.screen-pic {
-  justify-self: center;
+  .card-frame {
+    width: 50%;
+    position: relative;
+    top: -5%;
+    left: 1%;
+  }
 }
 
 a.button-project.tonic {
@@ -864,6 +876,7 @@ ul.social {
 
 #last_h2 {
   margin-left: 5%;
+  margin-bottom: 1%;
 }
 
 .a-tag {
@@ -879,5 +892,13 @@ ul.social {
 
 #form-footer button {
   width: 169px;
+}
+
+.second-project h2.title.cards {
+  margin-top: -10%;
+}
+
+.card:nth-child(3) img.frame {
+  width: 74%;
 }
 /* stylelint-disable-next-line rule */
