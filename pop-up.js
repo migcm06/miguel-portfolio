@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
       popUp.innerHTML = popupHTML;
       overlay.style.display = 'block';
       popUp.style.display = 'block';
-      popUp.style.height = '97%'
+      popUp.style.height = '97%';
       popUpContainer.style.display = 'block';
 
       const closeBtn = document.getElementById('close-pop');
