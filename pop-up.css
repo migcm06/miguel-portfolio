@@ -8,11 +8,11 @@
   backdrop-filter: blur(4px);
   display: none;
   z-index: 130;
-  overflow-y: auto;
+  overflow: hidden;
 }
 
 .pop-up {
-  position: absolute;
+  position: fixed;
   top: 44%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -25,6 +25,7 @@
   width: 90%;
   height: 90%;
   margin-top: 8%;
+  overflow: hidden;
 }
 
 #close-pop {
@@ -148,21 +149,37 @@ a.project-tech {
   .tag-pop-up {
     position: relative;
     left: 64%;
-    margin-top: -21%;
+    margin-top: -23%;
+    width: 27%;
+    margin-bottom: 2%;
   }
 
   .buttons-pop {
-    width: 40%;
-    margin-top: 1%;
-    margin-left: 62%;
+    width: 38%;
+    margin-top: -2%;
+    margin-left: 63%;
     justify-content: space-around;
   }
 
   .btn-pop {
     color: #6070ff;
     border: 1px solid;
-    border-radius: 8px;
-    padding: 0% 3%;
+    border-radius: 6px;
+    padding: 1% 7%;
     font-size: 13px;
+    display: flex;
+    justify-content: center;
   }
+
+  .icon-pop {
+    top: 0;
+  }
+}
+
+.gray-line {
+  width: 154%;
+  height: 1px;
+  background: #ebecf0;
+  position: relative;
+  margin-top: 8%;
 }

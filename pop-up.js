@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
       frame: './images/fame2.png',
       description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
       description_popUp: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-      tags: ['html', 'css', 'javaScript'],
+      tags: ['HTML', 'CSS', 'JavaScript'],
       popupIndex: 0,
     },
     {
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
       frame: './images/fame2.png',
       description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
       description_popUp: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-      tags: ['html', 'css', 'javaScript'],
+      tags: ['HTML', 'CSS', 'JavaScript'],
       popupIndex: 1,
       isSecondProject: true,
     },
@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
       frame: './images/fame2.png',
       description: 'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
       description_popUp: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-      tags: ['html', 'css', 'javaScript'],
-      popupIndex: 1,
+      tags: ['HTML', 'CSS', 'JavaScript'],
+      popupIndex: 2,
     },
   ];
 
@@ -75,7 +75,9 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         <div class="text-pop-up">${project.description_popUp}</div>
         <div class="right-links">
-          <div class="tag-pop-up">${project.tags.map((tech) => `<a href="#" class="project-tech">${tech}</a>`).join('')}</div>
+          <div class="tag-pop-up">${project.tags.map((tech) => `<a href="#" class="project-tech">${tech}</a>`).join('')}
+          <div class="gray-line"></div>
+        </div>
           <div class="buttons-pop">
             <a class="btn-pop" href="${project.seeLive}" target="_blank">See Live <img src="./images/Export.svg" class="icon-pop"></a>
             <a class="btn-pop" href="${project.seeSource}" target="_blank">See Source <img src="./images/Github.svg" class="icon-pop"></a>
