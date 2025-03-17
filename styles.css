@@ -19,6 +19,7 @@ nav {
   display: flex;
   padding-top: 5%;
   width: 100vw;
+  z-index: 2000;
 }
 
 #open {
@@ -263,6 +264,10 @@ img.screen-pic:hover {
 }
 /* stylelint-enable */
 
+.java {
+  width: 10%;
+}
+
 .button-project {
   display: flex;
   justify-content: center;
@@ -451,6 +456,14 @@ button:active {
   text-decoration: none; /* Opcional: elimina el subrayado */
 }
 
+.skills-section {
+  display: flex;
+  margin: 5%;
+}
+
+.framework {
+  width: 25%;
+}
 @media only screen and (min-width: 768px) {
   a.navbar-logo {
     left: -567%;
@@ -505,7 +518,7 @@ button:active {
     position: fixed;
     top: 0.06%;
     padding: 3% 4% 1%;
-    z-index: 120;
+    z-index: 2000;
   }
 
   #one {
@@ -573,6 +586,7 @@ button:active {
     align-items: center;
     margin: 5%;
   }
+
 
   h2.title.cards {
     padding: 0;
@@ -903,11 +917,10 @@ p#last_p.text {
   display: flex;
   gap: 25px;
   width: 73%;
-  margin-left: 30%;
 }
 
 #form-footer button {
-  width: 169px;
+  width: 75vw;
 }
 
 .second-project h2.title.cards {
@@ -920,5 +933,13 @@ p#last_p.text {
 
 .icon {
   z-index: 500;
+}
+
+.skills p {
+  margin-bottom: 5%;
+}
+
+.boos {
+  margin-top: 8%;
 }
 /* stylelint-disable-next-line rule */
