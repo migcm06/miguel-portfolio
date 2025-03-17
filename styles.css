@@ -69,7 +69,7 @@ nav {
 }
 
 a {
-  color: #6070ff;
+  color: #f5f6ff;
 }
 
 .menu-mobile {
@@ -208,9 +208,8 @@ div#final {
   width: 60%;
   display: flex;
   justify-content: space-around;
-  position: relative;
-  left: 1%;
   margin-bottom: 8%;
+  z-index: 500;
 }
 
 #cards {
@@ -291,11 +290,15 @@ img.screen-pic:hover {
 #myself {
   display: flex;
   flex-direction: column;
-  margin-top: 25%;
   background-color: white;
   padding-top: 25%;
   border-top-right-radius: 60px;
   padding-bottom: 10%;
+}
+
+.about-myself {
+  width: 100%;
+  height: 50vh;
 }
 
 #myself img {
@@ -441,6 +444,11 @@ button:active {
   background: #2230d2;
   color: #fff;
   transition: 0.5s;
+}
+
+.tag a {
+  color: rgba(134, 30, 134, 0.877); /* Usa 'purple' o un código como #800080 */
+  text-decoration: none; /* Opcional: elimina el subrayado */
 }
 
 @media only screen and (min-width: 768px) {
@@ -620,6 +628,12 @@ button:active {
     width: 52%;
   }
 
+  .tag a {
+    color: rgba(128, 0, 128, 0.808); /* Usa 'purple' o un código como #800080 */
+    text-decoration: none; /* Opcional: elimina el subrayado */
+  }
+  
+
   .button-project {
     width: 51%;
     padding: 4% 8%;
@@ -737,7 +751,6 @@ button:active {
     font-size: 33px;
     padding-left: 13%;
     padding-top: 3%;
-    margin-top: -22%;
   }
 
   p#last_p.text {
@@ -874,9 +887,12 @@ ul.social {
   margin-left: 5%;
 }
 
+p#last_p.text {
+  margin-top: 4%;
+}
+
 #last_h2 {
   margin-left: 5%;
-  margin-bottom: 1%;
 }
 
 .a-tag {
@@ -900,5 +916,9 @@ ul.social {
 
 .card:nth-child(3) img.frame {
   width: 74%;
+}
+
+.icon {
+  z-index: 500;
 }
 /* stylelint-disable-next-line rule */
